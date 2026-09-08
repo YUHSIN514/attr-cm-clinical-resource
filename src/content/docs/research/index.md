@@ -7,6 +7,15 @@ description: ATTR-CM 群體研究、臨床試驗、診斷研究、影像與篩�
 
 本區收錄以 **研究族群、方法與研究問題** 為核心的 ATTR-CM evidence，避免與「臨床案例」重複。
 
+## 已收錄｜Randomized Clinical Trials
+
+### 2018｜ATTR-ACT｜Tafamidis
+
+**Maurer MS, et al. *New England Journal of Medicine*. 2018.**  
+Phase 3 randomized, double-blind, placebo-controlled trial；441 位 ATTR-CM 患者，追蹤 30 個月。主要分析比較 all-cause mortality 與 cardiovascular-related hospitalization，並評估 6MWT 與 KCCQ-OS。
+
+[閱讀 ATTR-ACT 完整摘要 →](./tafamidis-attr-act/)
+
 ## 收錄範圍
 
 - Randomized clinical trial（RCT）

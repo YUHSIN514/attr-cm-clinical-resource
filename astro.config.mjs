@@ -75,9 +75,24 @@ export default defineConfig({
               link: '/clinical-cases/overview/'
             },
             {
+              label: 'HCM × ATTR 共存',
+              translations: { en: 'HCM × ATTR Coexistence' },
+              link: '/clinical-cases/hcm-attr-coexistence/'
+            },
+            {
               label: 'LVOT 阻塞',
               translations: { en: 'LVOT Obstruction' },
               link: '/clinical-cases/lvot-obstruction/'
+            },
+            {
+              label: 'V142I hATTR-CM',
+              translations: { en: 'V142I hATTR-CM' },
+              link: '/clinical-cases/v142i-taiwan/'
+            },
+            {
+              label: 'PYP diagnostic pitfall',
+              translations: { en: 'PYP Diagnostic Pitfall' },
+              link: '/clinical-cases/pyp-diagnostic-pitfall/'
             }
           ]
         },

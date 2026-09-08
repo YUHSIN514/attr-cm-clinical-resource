@@ -17,11 +17,11 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際與台灣�
 台灣目前有兩份與 ATTR-CM／cardiac amyloidosis 臨床實務高度相關的重要共識文件：
 
 - **2025｜99mTc-PYP scintigraphy 更新共識**  
-  由台灣心臟學會（TSOC）與 <a href="https://www.snm.org.tw/" target="_blank" rel="noopener noreferrer">中華民國核醫學學會（SNMROC）↗</a> 共同制定，聚焦 PYP acquisition、SPECT/CT、3-hour imaging、判讀與 AL 排除。  
+  由 <a href="https://www.tsoc.org.tw/" target="_blank" rel="noopener noreferrer">中華民國心臟學會（TSOC）↗</a> 與 <a href="https://www.snm.org.tw/" target="_blank" rel="noopener noreferrer">中華民國核醫學學會（SNMROC）↗</a> 共同制定，聚焦 PYP acquisition、SPECT/CT、3-hour imaging、判讀與 AL 排除。  
   <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11701493/" target="_blank" rel="noopener noreferrer">PMC 全文 ↗</a> ｜ <a href="https://pubmed.ncbi.nlm.nih.gov/39776923/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 
 - **2023｜Cardiac Amyloidosis 診斷與治療專家共識**  
-  涵蓋 red flags、AL/ATTR 鑑別、影像、biopsy、genetic testing 與治療。  
+  由 <a href="https://www.tsoc.org.tw/" target="_blank" rel="noopener noreferrer">中華民國心臟學會（TSOC）↗</a> 發布，涵蓋 red flags、AL/ATTR 鑑別、影像、biopsy、genetic testing 與治療。  
   <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10346051/" target="_blank" rel="noopener noreferrer">PMC 全文 ↗</a> ｜ <a href="https://pubmed.ncbi.nlm.nih.gov/37456934/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 
 ---
@@ -77,12 +77,12 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際與台灣�
 ### 🇹🇼 台灣｜2025 Update Consensus of 99mTc-Pyrophosphate Scintigraphy in ATTR-CM
 
 **正式名稱：** *2025 Update Consensus of 99mTc-Pyrophosphate Scintigraphy in the Transthyretin Cardiac Amyloidosis from the Taiwan Society of Cardiology and the Society of Nuclear Medicine of the Republic of China*  
-**共同制定：** 台灣心臟學會（TSOC）與 <a href="https://www.snm.org.tw/" target="_blank" rel="noopener noreferrer">中華民國核醫學學會（SNMROC）↗</a>  
+**共同制定：** <a href="https://www.tsoc.org.tw/" target="_blank" rel="noopener noreferrer">中華民國心臟學會（TSOC）↗</a> 與 <a href="https://www.snm.org.tw/" target="_blank" rel="noopener noreferrer">中華民國核醫學學會（SNMROC）↗</a>  
 **文件類型：** Joint Consensus  
 **期刊：** *Acta Cardiologica Sinica*. 2025;41(1):55–71  
 **DOI：** 10.6515/ACS.202501_41(1).20241027A
 
-這份台灣更新共識由台灣心臟學會與中華民國核醫學學會合作制定，專門聚焦 **99mTc-PYP scintigraphy 在 ATTR-CM 診斷中的標準化應用**。重點包括影像 acquisition、判讀流程、SPECT/CT、3-hour imaging、定量分析，以及降低 blood pool activity 與其他干擾造成誤判的策略。
+這份台灣更新共識由中華民國心臟學會與中華民國核醫學學會合作制定，專門聚焦 **99mTc-PYP scintigraphy 在 ATTR-CM 診斷中的標準化應用**。重點包括影像 acquisition、判讀流程、SPECT/CT、3-hour imaging、定量分析，以及降低 blood pool activity 與其他干擾造成誤判的策略。
 
 對台灣臨床最重要的價值，是提供 **PYP 檢查流程與 interpretation 的本土標準化框架**，也再次強調即使 PYP 呈陽性，仍需進行 hematologic testing 以排除 AL amyloidosis。
 
@@ -109,12 +109,12 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際與台灣�
 ### 🇹🇼 台灣｜Expert Consensus on the Diagnosis and Treatment of Cardiac Amyloidosis
 
 **正式名稱：** *2023 Expert Consensus of the Taiwan Society of Cardiology on the Diagnosis and Treatment of Cardiac Amyloidosis*  
-**發布機構：** 台灣心臟學會（TSOC）  
+**發布機構：** <a href="https://www.tsoc.org.tw/" target="_blank" rel="noopener noreferrer">中華民國心臟學會（TSOC）↗</a>  
 **文件類型：** Expert Consensus  
 **期刊：** *Acta Cardiologica Sinica*. 2023;39(4):511–543  
 **DOI：** 10.6515/ACS.202307_39(4).20230610A
 
-這是台灣針對 **cardiac amyloidosis 診斷與治療** 的核心本土共識文件，由台灣心臟學會 Heart Failure Committee 組織專家撰寫。
+這是台灣針對 **cardiac amyloidosis 診斷與治療** 的核心本土共識文件，由中華民國心臟學會 Heart Failure Committee 組織專家撰寫。
 
 內容涵蓋 epidemiology、red flags、AL-CM 與 ATTR-CM 的鑑別、影像與 bone scintigraphy、biopsy、TTR genetic testing，以及後續治療與 multidisciplinary care，可作為台灣臨床路徑的重要基礎文件。
 

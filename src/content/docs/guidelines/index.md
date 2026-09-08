@@ -24,7 +24,7 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際臨床指�
 這是目前最新的 ESC heart failure guideline，可用來理解 ATTR-CM 在整體 heart failure 評估與 specific conditions 中的位置，並作為從 heart failure phenotype 進入 cardiac amyloidosis 評估的最新 ESC 指引背景。
 
 **原始來源**  
-- [ESC 官方 guideline 頁面](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/)
+- <a href="https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/" target="_blank" rel="noopener noreferrer">ESC 官方 guideline 頁面 ↗</a>
 
 ---
 
@@ -47,8 +47,8 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際臨床指�
 - ATTR-CM 的一般 heart failure management 如何調整？
 
 **原始來源**  
-- [ACC 官方文件](https://www.acc.org/guidelines/guidelines/2025/10/31/12/53/transthyretin-cardiac-amyloidosis-concise-clinical-guidance)
-- [ACC Key Takeaways](https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Tools-and-Practice-Support/Clinical-Solutions/2026/B26031-ATTR-CCG-Key-Takeaways.pdf)
+- <a href="https://www.acc.org/guidelines/guidelines/2025/10/31/12/53/transthyretin-cardiac-amyloidosis-concise-clinical-guidance" target="_blank" rel="noopener noreferrer">ACC 官方文件 ↗</a>
+- <a href="https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Tools-and-Practice-Support/Clinical-Solutions/2026/B26031-ATTR-CCG-Key-Takeaways.pdf" target="_blank" rel="noopener noreferrer">ACC Key Takeaways ↗</a>
 
 ### HFA/ESC Clinical Consensus Statement｜Non-amyloid-specific treatment for ATTR-CM
 
@@ -60,7 +60,7 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際臨床指�
 它與 disease-modifying therapy 的 trial evidence 是不同層次，適合回答「確診 ATTR-CM 後，日常 heart failure management 如何處理」這類臨床問題。
 
 **原始來源**  
-- [ESC 365｜Clinical Consensus Statement](https://esc365.escardio.org/journal/89649)
+- <a href="https://esc365.escardio.org/journal/89649" target="_blank" rel="noopener noreferrer">ESC 365｜Clinical Consensus Statement ↗</a>
 
 ---
 
@@ -86,8 +86,8 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際臨床指�
 - Multidisciplinary care
 
 **原始來源**  
-- [ACC 官方文件](https://www.acc.org/guidelines/guidelines/2023/01/23/14/11/cardiac-amyloidosis-ecdp)
-- [ACC Key Points](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2023/01/19/14/49/2023-acc-consensus-on-cardiac-amyloidosis)
+- <a href="https://www.acc.org/guidelines/guidelines/2023/01/23/14/11/cardiac-amyloidosis-ecdp" target="_blank" rel="noopener noreferrer">ACC 官方文件 ↗</a>
+- <a href="https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2023/01/19/14/49/2023-acc-consensus-on-cardiac-amyloidosis" target="_blank" rel="noopener noreferrer">ACC Key Points ↗</a>
 
 ### ESC Guidelines for the Management of Cardiomyopathies
 
@@ -99,7 +99,7 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際臨床指�
 因此特別適合與 **HCM × ATTR-CM diagnostic overlap、LV wall thickening、影像鑑別診斷** 等主題交叉閱讀。
 
 **原始來源**  
-- [ESC 官方 guideline 頁面](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cardiomyopathy/)
+- <a href="https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cardiomyopathy/" target="_blank" rel="noopener noreferrer">ESC 官方 guideline 頁面 ↗</a>
 
 ---
 
@@ -115,7 +115,7 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際臨床指�
 雖然發布於 2021 年，仍是理解 cardiac amyloidosis 診斷架構的重要基礎文件；涉及較新的 heart failure classification 或 treatment evidence 時，應與較新的文件一併閱讀。
 
 **原始來源**  
-- [European Heart Journal｜ESC Position Statement](https://academic.oup.com/eurheartj/article/42/16/1554/6212698)
+- <a href="https://academic.oup.com/eurheartj/article/42/16/1554/6212698" target="_blank" rel="noopener noreferrer">European Heart Journal｜ESC Position Statement ↗</a>
 
 ---
 

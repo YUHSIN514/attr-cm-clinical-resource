@@ -7,6 +7,17 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'ATTR-CM Clinical Resource',
+      defaultLocale: 'root',
+locales: {
+  root: {
+    label: '繁體中文',
+    lang: 'zh-TW',
+  },
+  en: {
+    label: 'English',
+    lang: 'en',
+  },
+},
       description: 'An evidence-based clinical resource for transthyretin amyloid cardiomyopathy.',
       customCss: ['./src/styles/custom.css'],
       social: [

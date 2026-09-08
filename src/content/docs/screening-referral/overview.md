@@ -34,5 +34,4 @@ description: ATTR-CM 篩檢工具與已公開的 amyloidosis care / referral mod
 
 以 amyloidosis 專病中心為核心，串聯院內多專科及日本國內外轉診，並提供病型診斷、檢體分析、TTR genetic testing、second opinion 與跨院照護支援。
 
-- <a href="https://www.kuh.kumamoto-u.ac.jp/dept/i02.html" target="_blank" rel="noopener noreferrer">Kumamoto University Hospital｜Amyloidosis Center ↗</a>
-- <a href="https://amyloidosis-center.com/" target="_blank" rel="noopener noreferrer">Amyloidosis Diagnostic Support Service ↗</a>
+- <a href="https://amyloidosis-center.com/" target="_blank" rel="noopener noreferrer">Kumamoto Amyloidosis Center｜Official Site ↗</a>

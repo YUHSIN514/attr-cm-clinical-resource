@@ -82,8 +82,8 @@ export default defineConfig({
           ]
         },
         {
-          label: '篩檢與轉診',
-          translations: { en: 'Screening & Referral' },
+          label: '篩檢與照護模式',
+          translations: { en: 'Screening & Care Models' },
           items: [
             {
               label: '總覽',

@@ -1,0 +1,51 @@
+:root {
+  --sl-content-width: 52rem;
+  --sl-text-5xl: 3rem;
+}
+
+.hero > img,
+.hero .hero-html {
+  max-width: 22rem;
+}
+
+.sl-markdown-content h2 {
+  margin-top: 2.4rem;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.resource-card {
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 0.8rem;
+  padding: 1rem 1.1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.resource-card:hover {
+  border-color: var(--sl-color-accent);
+}
+
+.resource-card strong {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.resource-card span {
+  color: var(--sl-color-gray-2);
+  font-size: 0.95rem;
+}
+
+.evidence-label {
+  display: inline-block;
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  margin-right: 0.3rem;
+  font-size: 0.8rem;
+}

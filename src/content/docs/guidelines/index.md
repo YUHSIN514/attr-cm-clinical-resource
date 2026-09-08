@@ -12,14 +12,17 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際與台灣�
 > **更新日期：2026-09-09**  
 > 本站不重製 guideline 圖表或 recommendation table。
 
-## 🇹🇼 台灣本土指引｜快速入口
+## 🇹🇼 台灣本土共識文件
 
-台灣目前可優先查閱以下兩份核心文件：
+台灣目前有兩份與 ATTR-CM／cardiac amyloidosis 臨床實務高度相關的重要共識文件：
 
-- **2025｜PYP 更新共識** — 99mTc-PYP scintigraphy、SPECT/CT、3-hour imaging、判讀與 AL 排除  
-  → [跳到本頁 2025 台灣 PYP 共識](#taiwan-2025-pyp)
-- **2023｜Cardiac Amyloidosis 診斷與治療專家共識** — red flags、AL/ATTR 鑑別、影像、biopsy、genetic testing 與治療  
-  → [跳到本頁 2023 台灣 CA 共識](#taiwan-2023-ca)
+- **2025｜99mTc-PYP scintigraphy 更新共識**  
+  聚焦 PYP acquisition、SPECT/CT、3-hour imaging、判讀與 AL 排除。  
+  <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11701493/" target="_blank" rel="noopener noreferrer">PMC 全文 ↗</a> ｜ <a href="https://pubmed.ncbi.nlm.nih.gov/39776923/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
+
+- **2023｜Cardiac Amyloidosis 診斷與治療專家共識**  
+  涵蓋 red flags、AL/ATTR 鑑別、影像、biopsy、genetic testing 與治療。  
+  <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10346051/" target="_blank" rel="noopener noreferrer">PMC 全文 ↗</a> ｜ <a href="https://pubmed.ncbi.nlm.nih.gov/37456934/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 
 ---
 
@@ -71,7 +74,6 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際與台灣�
 **原始來源**  
 - <a href="https://esc365.escardio.org/journal/89649" target="_blank" rel="noopener noreferrer">ESC 365｜Clinical Consensus Statement ↗</a>
 
-<a id="taiwan-2025-pyp"></a>
 ### 🇹🇼 台灣｜2025 Update Consensus of 99mTc-Pyrophosphate Scintigraphy in ATTR-CM
 
 **正式名稱：** *2025 Update Consensus of 99mTc-Pyrophosphate Scintigraphy in the Transthyretin Cardiac Amyloidosis from the Taiwan Society of Cardiology and the Society of Nuclear Medicine of the Republic of China*  
@@ -104,7 +106,6 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際與台灣�
 **原始來源**  
 - <a href="https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cardiomyopathy/" target="_blank" rel="noopener noreferrer">ESC 官方 guideline 頁面 ↗</a>
 
-<a id="taiwan-2023-ca"></a>
 ### 🇹🇼 台灣｜Expert Consensus on the Diagnosis and Treatment of Cardiac Amyloidosis
 
 **正式名稱：** *2023 Expert Consensus of the Taiwan Society of Cardiology on the Diagnosis and Treatment of Cardiac Amyloidosis*  

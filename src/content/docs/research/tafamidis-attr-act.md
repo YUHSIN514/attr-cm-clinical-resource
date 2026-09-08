@@ -1,6 +1,6 @@
 ---
 title: ATTR-ACT｜Tafamidis
-Description: 2018 NEJM Phase 3 randomized trial of tafamidis in transthyretin amyloid cardiomyopathy.
+description: 2018 NEJM Phase 3 randomized trial of tafamidis in transthyretin amyloid cardiomyopathy.
 ---
 
 # ATTR-ACT｜Tafamidis in ATTR-CM
@@ -59,7 +59,7 @@ Tafamidis 在 all-cause mortality 與 cardiovascular-related hospitalization 的
 - Placebo：**76/177（42.9%）**
 - **HR 0.70（95% CI 0.51–0.96）**
 
-換言之，在 30 個月 trial period 中，tafamidis 與較低的 all-cause mortality 相關。
+在 30 個月追蹤期間，tafamidis 組的 all-cause mortality 較低。
 
 ### Cardiovascular-related hospitalization
 
@@ -91,7 +91,7 @@ Tafamidis 在 all-cause mortality 與 cardiovascular-related hospitalization 的
 
 ## Clinical context
 
-ATTR-ACT 是 tafamidis 在 ATTR-CM 中的 pivotal Phase 3 randomized trial，證明 TTR stabilization 可在 30 個月追蹤中影響 **mortality、cardiovascular hospitalization、functional capacity 與 health status**。
+ATTR-ACT 是 tafamidis 在 ATTR-CM 中的 pivotal Phase 3 randomized trial。研究顯示，在 30 個月追蹤中，TTR stabilization 與 **mortality、cardiovascular hospitalization、functional capacity 與 health status** 的改善相關。
 
 Kaplan–Meier survival curves 約在治療 **18 個月後**開始明顯分離；相較之下，6MWT 與 KCCQ-OS 的組間差異較早、約在 Month 6 即出現。
 

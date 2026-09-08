@@ -104,6 +104,17 @@ export default defineConfig({
           ]
         },
         {
+          label: '治療與給付',
+          translations: { en: 'Treatment & Reimbursement' },
+          items: [
+            {
+              label: 'Tafamidis｜台灣健保',
+              translations: { en: 'Tafamidis | Taiwan NHI' },
+              link: '/treatment-reimbursement/tafamidis-taiwan-nhi/'
+            }
+          ]
+        },
+        {
           label: '遺傳與基因',
           translations: { en: 'Genetics' },
           items: [

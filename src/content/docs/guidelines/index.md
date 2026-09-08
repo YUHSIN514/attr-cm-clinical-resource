@@ -1,11 +1,11 @@
 ---
 title: 指引與共識
-description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際臨床指引、專家共識與立場文件，依年份由新到舊排列。
+description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際與台灣臨床指引、專家共識與立場文件，依年份由新到舊排列。
 ---
 
 # 指引與共識
 
-本頁整理與 **ATTR-CM（transthyretin amyloid cardiomyopathy）／cardiac amyloidosis** 相關的重要國際文件，並依 **發布時間由新到舊** 排列。
+本頁整理與 **ATTR-CM（transthyretin amyloid cardiomyopathy）／cardiac amyloidosis** 相關的重要國際與台灣文件，並依 **發布時間由新到舊** 排列。
 
 每一筆均標示文件類型，避免把 Clinical Practice Guideline、Clinical Guidance、Expert Consensus 與 Position Statement 視為相同 evidence level。本站僅提供重點導覽與原始來源連結；實際臨床決策請以原始文件及最新更新為準。
 
@@ -62,9 +62,53 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際臨床指�
 **原始來源**  
 - <a href="https://esc365.escardio.org/journal/89649" target="_blank" rel="noopener noreferrer">ESC 365｜Clinical Consensus Statement ↗</a>
 
+### 🇹🇼 台灣｜2025 Update Consensus of 99mTc-Pyrophosphate Scintigraphy in ATTR-CM
+
+**正式名稱：** *2025 Update Consensus of 99mTc-Pyrophosphate Scintigraphy in the Transthyretin Cardiac Amyloidosis from the Taiwan Society of Cardiology and the Society of Nuclear Medicine of the Republic of China*  
+**發布機構：** 台灣心臟學會（TSOC）＋中華民國核醫學學會（SNMROC）  
+**文件類型：** Joint Consensus  
+**期刊：** *Acta Cardiologica Sinica*. 2025;41(1):55–71  
+**DOI：** 10.6515/ACS.202501_41(1).20241027A
+
+這份台灣更新共識專門聚焦 **99mTc-PYP scintigraphy 在 ATTR-CM 診斷中的標準化應用**。重點包括影像 acquisition、判讀流程、SPECT/CT、3-hour imaging、定量分析，以及降低 blood pool activity 與其他干擾造成誤判的策略。
+
+對台灣臨床最重要的價值，是提供 **PYP 檢查流程與 interpretation 的本土標準化框架**，也再次強調即使 PYP 呈陽性，仍需進行 hematologic testing 以排除 AL amyloidosis。
+
+**原始來源**  
+- <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11701493/" target="_blank" rel="noopener noreferrer">PMC 全文 ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/39776923/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
+
 ---
 
 ## 2023
+
+### ESC Guidelines for the Management of Cardiomyopathies
+
+**發布機構：** European Society of Cardiology（ESC）  
+**文件類型：** Clinical Practice Guideline
+
+此 guideline 採 **cardiomyopathy phenotype-based** 的診斷框架。對於 unexplained LV hypertrophy、HCM phenotype，或其他可能的 phenocopy / infiltrative cardiomyopathy，可提供較廣泛的 differential diagnosis context。
+
+因此特別適合與 **HCM × ATTR-CM diagnostic overlap、LV wall thickening、影像鑑別診斷** 等主題交叉閱讀。
+
+**原始來源**  
+- <a href="https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cardiomyopathy/" target="_blank" rel="noopener noreferrer">ESC 官方 guideline 頁面 ↗</a>
+
+### 🇹🇼 台灣｜Expert Consensus on the Diagnosis and Treatment of Cardiac Amyloidosis
+
+**正式名稱：** *2023 Expert Consensus of the Taiwan Society of Cardiology on the Diagnosis and Treatment of Cardiac Amyloidosis*  
+**發布機構：** 台灣心臟學會（TSOC）  
+**文件類型：** Expert Consensus  
+**期刊：** *Acta Cardiologica Sinica*. 2023;39(4):511–543  
+**DOI：** 10.6515/ACS.202307_39(4).20230610A
+
+這是台灣針對 **cardiac amyloidosis 診斷與治療** 的核心本土共識文件，由台灣心臟學會 Heart Failure Committee 組織專家撰寫。
+
+內容涵蓋 epidemiology、red flags、AL-CM 與 ATTR-CM 的鑑別、影像與 bone scintigraphy、biopsy、TTR genetic testing，以及後續治療與 multidisciplinary care，可作為台灣臨床路徑的重要基礎文件。
+
+**原始來源**  
+- <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10346051/" target="_blank" rel="noopener noreferrer">PMC 全文 ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/37456934/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 
 ### ACC Expert Consensus Decision Pathway｜Cardiac Amyloidosis
 
@@ -88,18 +132,6 @@ description: 與 ATTR-CM／心臟類澱粉沉積相關的重要國際臨床指�
 **原始來源**  
 - <a href="https://www.acc.org/guidelines/guidelines/2023/01/23/14/11/cardiac-amyloidosis-ecdp" target="_blank" rel="noopener noreferrer">ACC 官方文件 ↗</a>
 - <a href="https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2023/01/19/14/49/2023-acc-consensus-on-cardiac-amyloidosis" target="_blank" rel="noopener noreferrer">ACC Key Points ↗</a>
-
-### ESC Guidelines for the Management of Cardiomyopathies
-
-**發布機構：** European Society of Cardiology（ESC）  
-**文件類型：** Clinical Practice Guideline
-
-此 guideline 採 **cardiomyopathy phenotype-based** 的診斷框架。對於 unexplained LV hypertrophy、HCM phenotype，或其他可能的 phenocopy / infiltrative cardiomyopathy，可提供較廣泛的 differential diagnosis context。
-
-因此特別適合與 **HCM × ATTR-CM diagnostic overlap、LV wall thickening、影像鑑別診斷** 等主題交叉閱讀。
-
-**原始來源**  
-- <a href="https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cardiomyopathy/" target="_blank" rel="noopener noreferrer">ESC 官方 guideline 頁面 ↗</a>
 
 ---
 

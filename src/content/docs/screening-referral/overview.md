@@ -1,19 +1,23 @@
 ---
-title: Screening & Referral Models
-description: Published approaches to case finding, referral and multidisciplinary amyloidosis care.
+title: 篩檢與轉診
+description: ATTR-CM 篩檢策略、臨床預測工具與轉診相關公開資源。
 ---
 
-## Scope
+## ATTR-CM 臨床預測工具
 
-This section will summarize published screening strategies and referral models without presenting any single system as universally preferred.
+這些工具用於 **提高 ATTR-CM 疑似度、協助篩選哪些患者值得進一步接受 PYP 等評估**，本身不是確診工具。
 
-Planned topics include:
+### Mayo ATTR-CM Score
 
-- Heart-failure hospitalization pathways
-- Emergency-department case finding
-- Echocardiography-triggered evaluation
-- Carpal tunnel syndrome and extracardiac entry points
-- Multidisciplinary amyloidosis programs
-- International referral models
+*A Simple Score to Identify Increased Risk of Transthyretin Amyloid Cardiomyopathy in Heart Failure With Preserved Ejection Fraction*
 
-For each model, the site will separate **population**, **trigger criteria**, **diagnostic workflow**, **yield/outcomes**, and **limitations**.
+- <a href="https://jamanetwork.com/journals/jamacardiology/fullarticle/2796095" target="_blank" rel="noopener noreferrer">JAMA Cardiology 原始論文 ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/36069809/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
+
+### T-Amylo Score
+
+*Development and Validation of a Prediction Model and Score for Transthyretin Cardiac Amyloidosis Diagnosis: T-Amylo*
+
+- <a href="https://www.jacc.org/doi/10.1016/j.jcmg.2023.05.002" target="_blank" rel="noopener noreferrer">JACC: Cardiovascular Imaging 原始論文 ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/37389511/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
+- <a href="https://www.t-amylo.com/" target="_blank" rel="noopener noreferrer">T-Amylo calculator ↗</a>

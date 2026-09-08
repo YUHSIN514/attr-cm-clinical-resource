@@ -9,9 +9,13 @@ export default defineConfig({
       title: 'ATTR-CM Clinical Resource',
       description: 'An evidence-based clinical resource for transthyretin amyloid cardiomyopathy.',
       customCss: ['./src/styles/custom.css'],
-      social: {
-        github: 'https://github.com/YUHSIN514/attr-cm-clinical-resource'
-      },
+      social: [
+  {
+    icon: 'github',
+    label: 'GitHub',
+    href: 'https://github.com/YUHSIN514/attr-cm-clinical-resource'
+  }
+],
       sidebar: [
         { label: 'Home', link: '/' },
         {

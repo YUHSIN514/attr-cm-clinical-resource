@@ -1,11 +1,11 @@
 ---
-title: Bone Scintigraphy
-description: Role and limitations of bone-avid tracer scintigraphy in ATTR-CM evaluation.
+title: PYP 骨顯像
+description: 99mTc-PYP 骨顯像在 ATTR-CM 評估中的角色與限制。
 ---
 
 ## Clinical role
 
-Bone-avid tracer scintigraphy is an important component of ATTR-CM diagnosis when interpreted together with monoclonal protein testing and the clinical/imaging phenotype.
+99mTc-PYP bone scintigraphy（PYP 骨顯像）is an important component of ATTR-CM diagnosis when interpreted together with monoclonal protein testing and the clinical/imaging phenotype.
 
 ## Interpretation principles
 

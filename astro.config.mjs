@@ -48,8 +48,8 @@ export default defineConfig({
               link: '/diagnosis/al-exclusion/'
             },
             {
-              label: '骨顯像',
-              translations: { en: 'Bone Scintigraphy' },
+              label: 'PYP 骨顯像',
+              translations: { en: 'PYP Bone Scintigraphy' },
               link: '/diagnosis/bone-scintigraphy/'
             }
           ]

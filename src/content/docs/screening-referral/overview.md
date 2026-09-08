@@ -1,11 +1,9 @@
 ---
-title: 篩檢與轉診
-description: ATTR-CM 篩檢策略、臨床預測工具與轉診相關公開資源。
+title: 篩檢與照護模式
+description: ATTR-CM 篩檢工具與已公開的 amyloidosis care / referral models。
 ---
 
 ## ATTR-CM 臨床預測工具
-
-這些工具用於 **提高 ATTR-CM 疑似度、協助篩選哪些患者值得進一步接受 PYP 等評估**，本身不是確診工具。
 
 ### Mayo ATTR-CM Score
 
@@ -21,3 +19,13 @@ description: ATTR-CM 篩檢策略、臨床預測工具與轉診相關公開資�
 - <a href="https://www.jacc.org/doi/10.1016/j.jcmg.2023.05.002" target="_blank" rel="noopener noreferrer">JACC: Cardiovascular Imaging 原始論文 ↗</a>
 - <a href="https://pubmed.ncbi.nlm.nih.gov/37389511/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 - <a href="https://www.t-amylo.com/" target="_blank" rel="noopener noreferrer">T-Amylo calculator ↗</a>
+
+## 國際照護模式
+
+### Canada｜Amyloidosis Program of Calgary（APC）
+
+多專科、跨院區的 amyloidosis care program，涵蓋 referral、diagnosis、treatment 與 follow-up。
+
+- <a href="https://cumming.ucalgary.ca/research/amyloidcalgary/programs/clinical-care" target="_blank" rel="noopener noreferrer">University of Calgary｜Clinical Care ↗</a>
+- <a href="https://libin.ucalgary.ca/community/affiliated-clinics/cardiac-amyloidosis-clinic" target="_blank" rel="noopener noreferrer">Cardiac Amyloidosis Clinic ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/40379497/" target="_blank" rel="noopener noreferrer">APC multidisciplinary program study｜PubMed ↗</a>

@@ -12,9 +12,10 @@ description: ATTR-CM 群體研究、臨床試驗、診斷研究、影像與篩�
 ### 2018｜ATTR-ACT｜Tafamidis
 
 **Maurer MS, et al. *New England Journal of Medicine*. 2018.**  
-Phase 3 randomized, double-blind, placebo-controlled trial；441 位 ATTR-CM 患者，追蹤 30 個月。主要分析比較 all-cause mortality 與 cardiovascular-related hospitalization，並評估 6MWT 與 KCCQ-OS。
+*Tafamidis Treatment for Patients with Transthyretin Amyloid Cardiomyopathy*
 
-[閱讀 ATTR-ACT 完整摘要 →](./tafamidis-attr-act/)
+- <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1805689" target="_blank" rel="noopener noreferrer">NEJM 原始論文 ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/30145929/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 
 ## 收錄範圍
 

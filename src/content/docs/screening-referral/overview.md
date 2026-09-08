@@ -20,6 +20,16 @@ description: ATTR-CM 篩檢工具與已公開的 amyloidosis care / referral mod
 - <a href="https://pubmed.ncbi.nlm.nih.gov/37389511/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 - <a href="https://www.t-amylo.com/" target="_blank" rel="noopener noreferrer">T-Amylo calculator ↗</a>
 
+## AI / Digital Screening
+
+### Mayo Clinic × Anumana｜ECG-AI Cardiac Amyloidosis
+
+以標準 12-lead ECG 進行 cardiac amyloidosis AI screening；Anumana 的 ECG-AI Cardiac Amyloidosis 12-Lead Algorithm 已於 2026 年取得 FDA 510(k) clearance（K253801）。
+
+- <a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253801" target="_blank" rel="noopener noreferrer">FDA｜510(k) K253801 ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/34218880/" target="_blank" rel="noopener noreferrer">2021｜Artificial Intelligence-Enhanced Electrocardiogram for the Early Detection of Cardiac Amyloidosis｜PubMed ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/38638999/" target="_blank" rel="noopener noreferrer">2024｜Postdevelopment Performance and Validation｜PubMed ↗</a>
+
 ## 國際照護模式
 
 ### Canada｜Amyloidosis Program of Calgary（APC）

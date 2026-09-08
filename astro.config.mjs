@@ -43,11 +43,6 @@ export default defineConfig({
               link: '/diagnosis/overview/'
             },
             {
-              label: 'ECG / EKG',
-              translations: { en: 'ECG / EKG' },
-              link: '/diagnosis/ecg/'
-            },
-            {
               label: 'AL 排除',
               translations: { en: 'AL Exclusion' },
               link: '/diagnosis/al-exclusion/'

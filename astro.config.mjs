@@ -16,13 +16,6 @@ export default defineConfig({
       },
       description: 'An evidence-based clinical resource for transthyretin amyloid cardiomyopathy.',
       customCss: ['./src/styles/custom.css'],
-      social: [
-        {
-          icon: 'github',
-          label: 'GitHub',
-          href: 'https://github.com/YUHSIN514/attr-cm-clinical-resource'
-        }
-      ],
       sidebar: [
         {
           label: '首頁',

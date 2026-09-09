@@ -34,27 +34,6 @@ export default defineConfig({
           link: '/'
         },
         {
-          label: '診斷',
-          translations: { en: 'Diagnosis' },
-          items: [
-            {
-              label: '總覽',
-              translations: { en: 'Overview' },
-              link: '/diagnosis/overview/'
-            },
-            {
-              label: 'AL 排除',
-              translations: { en: 'AL Exclusion' },
-              link: '/diagnosis/al-exclusion/'
-            },
-            {
-              label: 'PYP 骨顯像',
-              translations: { en: 'PYP Bone Scintigraphy' },
-              link: '/diagnosis/bone-scintigraphy/'
-            }
-          ]
-        },
-        {
           label: '影像',
           translations: { en: 'Imaging' },
           items: [
@@ -73,26 +52,6 @@ export default defineConfig({
               label: '案例總覽',
               translations: { en: 'Case Library' },
               link: '/clinical-cases/overview/'
-            },
-            {
-              label: 'HCM × ATTR 共存',
-              translations: { en: 'HCM × ATTR Coexistence' },
-              link: '/clinical-cases/hcm-attr-coexistence/'
-            },
-            {
-              label: 'LVOT 阻塞',
-              translations: { en: 'LVOT Obstruction' },
-              link: '/clinical-cases/lvot-obstruction/'
-            },
-            {
-              label: 'V142I hATTR-CM',
-              translations: { en: 'V142I hATTR-CM' },
-              link: '/clinical-cases/v142i-taiwan/'
-            },
-            {
-              label: 'PYP diagnostic pitfall',
-              translations: { en: 'PYP Diagnostic Pitfall' },
-              link: '/clinical-cases/pyp-diagnostic-pitfall/'
             }
           ]
         },
@@ -119,19 +78,19 @@ export default defineConfig({
           ]
         },
         {
-          label: '治療與給付',
-          translations: { en: 'Treatment & Reimbursement' },
+          label: '研究與文獻',
+          translations: { en: 'Research & Literature' },
           items: [
             {
-              label: 'Tafamidis｜台灣健保',
-              translations: { en: 'Tafamidis | Taiwan NHI' },
-              link: '/treatment-reimbursement/tafamidis-taiwan-nhi/'
+              label: '文獻索引',
+              translations: { en: 'Evidence Index' },
+              link: '/research/'
             }
           ]
         },
         {
-          label: '遺傳與基因',
-          translations: { en: 'Genetics' },
+          label: 'Genetics & TTR Variants',
+          translations: { en: 'Genetics & TTR Variants' },
           items: [
             {
               label: '變異與檢測',
@@ -141,13 +100,13 @@ export default defineConfig({
           ]
         },
         {
-          label: '研究與文獻',
-          translations: { en: 'Research & Literature' },
+          label: '治療與給付',
+          translations: { en: 'Treatment & Reimbursement' },
           items: [
             {
-              label: '文獻索引',
-              translations: { en: 'Evidence Index' },
-              link: '/research/'
+              label: 'Tafamidis｜台灣健保',
+              translations: { en: 'Tafamidis | Taiwan NHI' },
+              link: '/treatment-reimbursement/tafamidis-taiwan-nhi/'
             }
           ]
         }

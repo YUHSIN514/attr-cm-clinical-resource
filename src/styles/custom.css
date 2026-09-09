@@ -49,3 +49,44 @@
   margin-right: 0.3rem;
   font-size: 0.8rem;
 }
+
+/* Case library: single-column summaries linking to complete case pages. */
+.case-list {
+  display: grid;
+  gap: 1.25rem;
+  margin-block: 1.75rem;
+}
+.sl-markdown-content .case-card {
+  margin: 0;
+  padding: clamp(1.1rem, 3vw, 1.65rem);
+  border: 1px solid var(--sl-color-gray-5);
+  border-inline-start: 3px solid #168b88;
+  border-radius: 0.75rem;
+  background: var(--sl-color-bg);
+  overflow-wrap: anywhere;
+}
+.sl-markdown-content .case-card > * { margin: 0; }
+.sl-markdown-content .case-card > * + * { margin-top: 0.65rem; }
+.sl-markdown-content .case-card h2 {
+  font-size: 1.35rem;
+  line-height: 1.5;
+  border: 0;
+  padding: 0;
+}
+.case-card h2 a { color: var(--sl-color-white); text-decoration: none; }
+:root[data-theme='light'] .case-card h2 a { color: #173d60; }
+.case-card-meta, .case-card-topics {
+  color: var(--sl-color-gray-2);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+.case-card-patient { font-size: 1rem; line-height: 1.8; }
+.sl-markdown-content .case-card-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  text-underline-offset: 0.2em;
+}
+.case-card a:focus-visible { outline: 2px solid var(--sl-color-accent); outline-offset: 4px; }
+.case-card h2 a:hover { text-decoration: underline; text-underline-offset: 0.2em; }

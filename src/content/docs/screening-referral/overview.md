@@ -22,7 +22,7 @@ description: ATTR-CM 臨床預測工具與 AI / digital screening 資源。
 
 **≥6 分**為原研究的 high-risk cutoff。原研究沒有另外定義正式的 Low / Intermediate risk 分層，因此本站不自行增加未發表的風險分類。
 
-- <a href="./calculator/">開啟 ATTR-CM 計分工具 →</a>
+- <a href="../calculator/">開啟 ATTR-CM 計分工具 →</a>
 - <a href="https://jamanetwork.com/journals/jamacardiology/fullarticle/2796095" target="_blank" rel="noopener noreferrer">JAMA Cardiology 原始論文 ↗</a>
 - <a href="https://pubmed.ncbi.nlm.nih.gov/36069809/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 
@@ -44,7 +44,7 @@ description: ATTR-CM 臨床預測工具與 AI / digital screening 資源。
 - **3–6 分｜Intermediate risk**
 - **7–11 分｜High risk**
 
-- <a href="./calculator/">開啟 ATTR-CM 計分工具 →</a>
+- <a href="../calculator/">開啟 ATTR-CM 計分工具 →</a>
 - <a href="https://www.jacc.org/doi/10.1016/j.jcmg.2023.05.002" target="_blank" rel="noopener noreferrer">JACC: Cardiovascular Imaging 原始論文 ↗</a>
 - <a href="https://pubmed.ncbi.nlm.nih.gov/37389511/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 - <a href="https://www.t-amylo.com/" target="_blank" rel="noopener noreferrer">T-Amylo calculator ↗</a>
@@ -59,7 +59,7 @@ description: ATTR-CM 臨床預測工具與 AI / digital screening 資源。
 
 原始熊本 cohort 中，0 分時 PYP 陰性的 NPV 為 87%，3 分時 PYP 陽性的 PPV 為 96%。外部驗證中，0、1、2、3 分的 PYP 陽性 PPV 分別為 **0%、11%、21%、83%**。因此這些數值應解讀為 **PYP positive predictive value / patient selection evidence**，而不是 ATTR-CM 的直接診斷機率。
 
-- <a href="./calculator/">開啟 ATTR-CM 計分工具 →</a>
+- <a href="../calculator/">開啟 ATTR-CM 計分工具 →</a>
 - <a href="https://pubmed.ncbi.nlm.nih.gov/31189791/" target="_blank" rel="noopener noreferrer">2019｜Original Kumamoto Criteria｜PubMed ↗</a>
 - <a href="https://pubmed.ncbi.nlm.nih.gov/36530839/" target="_blank" rel="noopener noreferrer">2022｜External Validation｜PubMed ↗</a>
 - <a href="https://www.jstage.jst.go.jp/article/circj/84/9/84_CJ-20-0110/_html/-char/en" target="_blank" rel="noopener noreferrer">JCS 2020 Guideline on Diagnosis and Treatment of Cardiac Amyloidosis ↗</a>

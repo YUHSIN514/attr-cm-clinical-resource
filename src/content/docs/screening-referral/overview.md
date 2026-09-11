@@ -1,6 +1,6 @@
 ---
 title: 篩檢工具
-description: ATTR-CM 臨床預測工具與 AI / digital screening 資源。
+description: ATTR-CM 臨床預測工具的研究背景、適用族群與計分規則。
 ---
 
 ## ATTR-CM 臨床預測工具
@@ -66,12 +66,6 @@ description: ATTR-CM 臨床預測工具與 AI / digital screening 資源。
 
 > **三套工具的研究族群不同：** Mayo ATTR-CM Score 偏向 HFpEF / preserved-EF heart failure；T-Amylo 用於 broader suspected ATTR-CA population；Kumamoto Criteria 則來自日本高齡 PYP referral cohort。三者皆屬 screening / risk stratification 工具，不取代 AL exclusion、PYP 骨顯像判讀或 biopsy 等正式診斷流程。
 
-## AI / Digital Screening
+## 延伸閱讀
 
-### Mayo Clinic × Anumana｜ECG-AI Cardiac Amyloidosis
-
-以標準 12-lead ECG 進行 cardiac amyloidosis AI screening；Anumana 的 ECG-AI Cardiac Amyloidosis 12-Lead Algorithm 已於 2026 年取得 FDA 510(k) clearance（K253801）。
-
-- <a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253801" target="_blank" rel="noopener noreferrer">FDA｜510(k) K253801 ↗</a>
-- <a href="https://pubmed.ncbi.nlm.nih.gov/34218880/" target="_blank" rel="noopener noreferrer">2021｜Artificial Intelligence-Enhanced Electrocardiogram for the Early Detection of Cardiac Amyloidosis｜PubMed ↗</a>
-- <a href="https://pubmed.ncbi.nlm.nih.gov/38638999/" target="_blank" rel="noopener noreferrer">2024｜Postdevelopment Performance and Validation｜PubMed ↗</a>
+- [AI 輔助篩檢：ECG-AI 介紹與研究](../ai-screening/)

@@ -49,6 +49,10 @@ export default defineConfig({
             {
               label: 'ATTR-CM 計分工具',
               link: '/screening-referral/calculator/'
+            },
+            {
+              label: 'AI 輔助篩檢',
+              link: '/screening-referral/ai-screening/'
             }
           ]
         },

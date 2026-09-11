@@ -1,0 +1,689 @@
+<div class="score-calculator" data-score-calculator>
+  <div class="privacy-note">
+    <strong>Browser-only calculator</strong>
+    <span>輸入資料只在目前瀏覽器中計算，不會送到伺服器。請勿輸入姓名、病歷號或其他可識別個資。</span>
+  </div>
+
+  <div class="calculator-grid">
+    <section class="input-panel" aria-labelledby="calculator-input-title">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">INPUT</p>
+          <h2 id="calculator-input-title">輸入臨床資料</h2>
+          <p>只要填入想計算的 score 所需欄位即可；右側會自動顯示結果與缺少項目。</p>
+        </div>
+        <button type="button" class="reset-button" data-reset>清除全部</button>
+      </div>
+
+      <div class="field-section">
+        <h3>基本資料</h3>
+        <div class="field-grid two-col">
+          <label>
+            <span>年齡 <small>years</small></span>
+            <input id="score-age" type="number" min="18" max="120" step="1" inputmode="numeric" placeholder="例如 78" />
+          </label>
+          <label>
+            <span>性別</span>
+            <select id="score-sex">
+              <option value="">請選擇</option>
+              <option value="male">男性</option>
+              <option value="female">女性</option>
+            </select>
+          </label>
+          <label>
+            <span>高血壓病史</span>
+            <select id="score-htn">
+              <option value="">請選擇</option>
+              <option value="yes">有</option>
+              <option value="no">無</option>
+            </select>
+          </label>
+          <label>
+            <span>Carpal tunnel syndrome</span>
+            <select id="score-cts">
+              <option value="">請選擇</option>
+              <option value="yes">有</option>
+              <option value="no">無</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="field-section">
+        <h3>Echo</h3>
+        <div class="field-grid two-col">
+          <label>
+            <span>LVEF <small>%</small></span>
+            <input id="score-lvef" type="number" min="0" max="100" step="0.1" inputmode="decimal" placeholder="例如 55" />
+          </label>
+          <label>
+            <span>Posterior wall thickness <small>mm</small></span>
+            <input id="score-pwt" type="number" min="0" max="40" step="0.1" inputmode="decimal" placeholder="例如 14" />
+          </label>
+          <label>
+            <span>IVSd <small>mm</small></span>
+            <input id="score-ivsd" type="number" min="0" max="40" step="0.1" inputmode="decimal" placeholder="例如 16" />
+          </label>
+          <label>
+            <span>Relative wall thickness <small>RWT</small></span>
+            <input id="score-rwt" type="number" min="0" max="2" step="0.01" inputmode="decimal" placeholder="例如 0.60" />
+          </label>
+        </div>
+
+        <details class="rwt-helper">
+          <summary>不知道 RWT？用 IVSd + PWT + LVEDD 自動計算</summary>
+          <div class="helper-row">
+            <label>
+              <span>LVEDD <small>mm</small></span>
+              <input id="score-lvedd" type="number" min="20" max="90" step="0.1" inputmode="decimal" placeholder="例如 45" />
+            </label>
+            <button type="button" class="secondary-button" data-calc-rwt>計算 RWT</button>
+          </div>
+          <p class="helper-note" data-rwt-note>公式：RWT = (IVSd + posterior wall thickness) ÷ LVEDD</p>
+        </details>
+      </div>
+
+      <div class="field-section">
+        <h3>ECG / Biomarker</h3>
+        <div class="field-grid two-col">
+          <label>
+            <span>Low QRS voltage</span>
+            <select id="score-low-voltage">
+              <option value="">請選擇</option>
+              <option value="yes">有</option>
+              <option value="no">無</option>
+            </select>
+          </label>
+          <label>
+            <span>QRS duration <small>ms</small></span>
+            <input id="score-qrs" type="number" min="40" max="300" step="1" inputmode="numeric" placeholder="例如 126" />
+          </label>
+          <label class="troponin-field">
+            <span>hs-cTnT</span>
+            <div class="input-with-unit">
+              <input id="score-troponin" type="number" min="0" step="0.001" inputmode="decimal" placeholder="例如 35" />
+              <select id="score-troponin-unit" aria-label="hs-cTnT unit">
+                <option value="ngL">ng/L</option>
+                <option value="ngmL">ng/mL</option>
+              </select>
+            </div>
+            <small>Kumamoto threshold：30.8 ng/L = 0.0308 ng/mL</small>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <aside class="results-panel" aria-label="計分結果">
+      <div class="result-heading">
+        <p class="eyebrow">RESULTS</p>
+        <h2>三種 score 即時計算</h2>
+        <p>研究族群與用途不同，分數不能直接互相比高低。</p>
+      </div>
+
+      <article class="score-card mayo-card" data-result-card="mayo">
+        <div class="score-card-topline">
+          <div>
+            <span class="score-label">Mayo Clinic</span>
+            <h3>Mayo ATTR-CM Score</h3>
+          </div>
+          <div class="score-number" data-mayo-score>—</div>
+        </div>
+        <p class="score-context">HFpEF / heart failure cohort；published high-risk cutoff ≥6。</p>
+        <div class="status-pill neutral" data-mayo-status>等待輸入資料</div>
+        <p class="missing-text" data-mayo-missing>需要：年齡、性別、高血壓、LVEF、PWT、RWT</p>
+        <p class="breakdown" data-mayo-breakdown></p>
+      </article>
+
+      <article class="score-card tamylo-card" data-result-card="tamylo">
+        <div class="score-card-topline">
+          <div>
+            <span class="score-label">T-Amylo</span>
+            <h3>T-Amylo Score</h3>
+          </div>
+          <div class="score-number" data-tamylo-score>—</div>
+        </div>
+        <p class="score-context">Suspected cardiac amyloidosis population；0–11 分。</p>
+        <div class="status-pill neutral" data-tamylo-status>等待輸入資料</div>
+        <p class="missing-text" data-tamylo-missing>需要：年齡、性別、CTS、IVSd、low QRS voltage</p>
+        <p class="breakdown" data-tamylo-breakdown></p>
+      </article>
+
+      <article class="score-card kumamoto-card" data-result-card="kumamoto">
+        <div class="score-card-topline">
+          <div>
+            <span class="score-label">Japan</span>
+            <h3>Kumamoto Criteria</h3>
+          </div>
+          <div class="score-number" data-kumamoto-score>—</div>
+        </div>
+        <p class="score-context">PYP patient selection / pretest probability；0–3 分。</p>
+        <div class="status-pill neutral" data-kumamoto-status>等待輸入資料</div>
+        <p class="missing-text" data-kumamoto-missing>需要：hs-cTnT、PWT、QRS duration</p>
+        <p class="breakdown" data-kumamoto-breakdown></p>
+      </article>
+
+      <div class="clinical-note">
+        <strong>Clinical use</strong>
+        <p>這些工具用於 screening / risk stratification，不等同 ATTR-CM 診斷。實際診斷仍需依臨床情境完成 AL exclusion、bone scintigraphy / PYP、CMR 或 biopsy 等評估。</p>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<script>
+  function initAttrScoreCalculator() {
+    const root = document.querySelector('[data-score-calculator]');
+    if (!root || root.dataset.initialized === 'true') return;
+    root.dataset.initialized = 'true';
+
+    const byId = (id) => root.querySelector(`#${id}`);
+    const numberValue = (id) => {
+      const el = byId(id);
+      if (!(el instanceof HTMLInputElement) || el.value.trim() === '') return null;
+      const value = Number(el.value);
+      return Number.isFinite(value) ? value : null;
+    };
+    const selectValue = (id) => {
+      const el = byId(id);
+      return el instanceof HTMLSelectElement ? el.value : '';
+    };
+    const setText = (selector, value) => {
+      const el = root.querySelector(selector);
+      if (el) el.textContent = value;
+    };
+    const setStatus = (selector, text, tone = 'neutral') => {
+      const el = root.querySelector(selector);
+      if (!el) return;
+      el.textContent = text;
+      el.className = `status-pill ${tone}`;
+    };
+
+    function renderMayo() {
+      const age = numberValue('score-age');
+      const sex = selectValue('score-sex');
+      const htn = selectValue('score-htn');
+      const lvef = numberValue('score-lvef');
+      const pwt = numberValue('score-pwt');
+      const rwt = numberValue('score-rwt');
+
+      const missing = [];
+      if (age === null) missing.push('年齡');
+      if (!sex) missing.push('性別');
+      if (!htn) missing.push('高血壓');
+      if (lvef === null) missing.push('LVEF');
+      if (pwt === null) missing.push('PWT');
+      if (rwt === null) missing.push('RWT');
+
+      if (missing.length) {
+        setText('[data-mayo-score]', '—');
+        setStatus('[data-mayo-status]', `尚缺 ${missing.length} 項`, 'neutral');
+        setText('[data-mayo-missing]', `缺少：${missing.join('、')}`);
+        setText('[data-mayo-breakdown]', '');
+        return;
+      }
+
+      let score = 0;
+      const parts = [];
+      if (age >= 80) { score += 4; parts.push('Age ≥80 +4'); }
+      else if (age >= 70) { score += 3; parts.push('Age 70–79 +3'); }
+      else if (age >= 60) { score += 2; parts.push('Age 60–69 +2'); }
+      else { parts.push('Age <60 +0'); }
+
+      if (sex === 'male') { score += 2; parts.push('Male +2'); } else parts.push('Female +0');
+      if (htn === 'yes') { score -= 1; parts.push('Hypertension −1'); } else parts.push('No hypertension +0');
+      if (lvef < 60) { score += 1; parts.push('LVEF <60% +1'); } else parts.push('LVEF ≥60% +0');
+      if (pwt >= 12) { score += 1; parts.push('PWT ≥12 mm +1'); } else parts.push('PWT <12 mm +0');
+      if (rwt > 0.57) { score += 2; parts.push('RWT >0.57 +2'); } else parts.push('RWT ≤0.57 +0');
+
+      setText('[data-mayo-score]', `${score}`);
+      setText('[data-mayo-missing]', '完整資料');
+      setText('[data-mayo-breakdown]', parts.join(' · '));
+      if (score >= 6) setStatus('[data-mayo-status]', '達 published high-risk cutoff（≥6）', 'high');
+      else setStatus('[data-mayo-status]', '未達 published high-risk cutoff（≥6）', 'low');
+    }
+
+    function renderTAmylo() {
+      const age = numberValue('score-age');
+      const sex = selectValue('score-sex');
+      const cts = selectValue('score-cts');
+      const ivsd = numberValue('score-ivsd');
+      const lowVoltage = selectValue('score-low-voltage');
+
+      const missing = [];
+      if (age === null) missing.push('年齡');
+      if (!sex) missing.push('性別');
+      if (!cts) missing.push('CTS');
+      if (ivsd === null) missing.push('IVSd');
+      if (!lowVoltage) missing.push('low QRS voltage');
+
+      if (missing.length) {
+        setText('[data-tamylo-score]', '—');
+        setStatus('[data-tamylo-status]', `尚缺 ${missing.length} 項`, 'neutral');
+        setText('[data-tamylo-missing]', `缺少：${missing.join('、')}`);
+        setText('[data-tamylo-breakdown]', '');
+        return;
+      }
+
+      let score = 0;
+      const parts = [];
+      if (age >= 80) { score += 1; parts.push('Age ≥80 +1'); } else parts.push('Age <80 +0');
+      if (sex === 'male') { score += 3; parts.push('Male +3'); } else parts.push('Female +0');
+      if (cts === 'yes') { score += 3; parts.push('CTS +3'); } else parts.push('No CTS +0');
+      if (ivsd >= 16) { score += 2; parts.push('IVSd ≥16 mm +2'); } else parts.push('IVSd <16 mm +0');
+      if (lowVoltage === 'yes') { score += 2; parts.push('Low QRS voltage +2'); } else parts.push('No low voltage +0');
+
+      setText('[data-tamylo-score]', `${score}`);
+      setText('[data-tamylo-missing]', '完整資料');
+      setText('[data-tamylo-breakdown]', parts.join(' · '));
+      if (score <= 2) setStatus('[data-tamylo-status]', 'Low risk（0–2）', 'low');
+      else if (score <= 6) setStatus('[data-tamylo-status]', 'Intermediate risk（3–6）', 'mid');
+      else setStatus('[data-tamylo-status]', 'High risk（7–11）', 'high');
+    }
+
+    function renderKumamoto() {
+      const troponin = numberValue('score-troponin');
+      const unit = selectValue('score-troponin-unit');
+      const pwt = numberValue('score-pwt');
+      const qrs = numberValue('score-qrs');
+
+      const missing = [];
+      if (troponin === null) missing.push('hs-cTnT');
+      if (pwt === null) missing.push('PWT');
+      if (qrs === null) missing.push('QRS duration');
+
+      if (missing.length) {
+        setText('[data-kumamoto-score]', '—');
+        setStatus('[data-kumamoto-status]', `尚缺 ${missing.length} 項`, 'neutral');
+        setText('[data-kumamoto-missing]', `缺少：${missing.join('、')}`);
+        setText('[data-kumamoto-breakdown]', '');
+        return;
+      }
+
+      const troponinPositive = unit === 'ngmL' ? troponin >= 0.0308 : troponin >= 30.8;
+      let score = 0;
+      const parts = [];
+      if (troponinPositive) { score += 1; parts.push('hs-cTnT threshold +1'); } else parts.push('hs-cTnT below threshold +0');
+      if (pwt >= 13.6) { score += 1; parts.push('PWT ≥13.6 mm +1'); } else parts.push('PWT <13.6 mm +0');
+      if (qrs >= 120) { score += 1; parts.push('QRS ≥120 ms +1'); } else parts.push('QRS <120 ms +0');
+
+      setText('[data-kumamoto-score]', `${score}`);
+      setText('[data-kumamoto-missing]', '完整資料');
+      setText('[data-kumamoto-breakdown]', parts.join(' · '));
+      if (score === 3) setStatus('[data-kumamoto-status]', '3 / 3｜最高分組，優先考慮 PYP 評估', 'high');
+      else if (score === 2) setStatus('[data-kumamoto-status]', '2 / 3｜較高分組，需結合臨床判斷', 'mid');
+      else setStatus('[data-kumamoto-status]', `${score} / 3｜仍需依整體臨床情境評估`, 'low');
+    }
+
+    function renderAll() {
+      renderMayo();
+      renderTAmylo();
+      renderKumamoto();
+    }
+
+    root.querySelectorAll('input, select').forEach((el) => {
+      el.addEventListener('input', renderAll);
+      el.addEventListener('change', renderAll);
+    });
+
+    const rwtButton = root.querySelector('[data-calc-rwt]');
+    rwtButton?.addEventListener('click', () => {
+      const ivsd = numberValue('score-ivsd');
+      const pwt = numberValue('score-pwt');
+      const lvedd = numberValue('score-lvedd');
+      const rwtInput = byId('score-rwt');
+      const note = root.querySelector('[data-rwt-note]');
+      if (ivsd === null || pwt === null || lvedd === null || lvedd <= 0) {
+        if (note) note.textContent = '請先輸入 IVSd、PWT 與 LVEDD。';
+        return;
+      }
+      const rwt = (ivsd + pwt) / lvedd;
+      if (rwtInput instanceof HTMLInputElement) {
+        rwtInput.value = rwt.toFixed(2);
+        rwtInput.dispatchEvent(new Event('input', { bubbles: true }));
+      }
+      if (note) note.textContent = `RWT = (${ivsd} + ${pwt}) ÷ ${lvedd} = ${rwt.toFixed(2)}`;
+    });
+
+    const resetButton = root.querySelector('[data-reset]');
+    resetButton?.addEventListener('click', () => {
+      root.querySelectorAll('input').forEach((el) => {
+        if (el instanceof HTMLInputElement) el.value = '';
+      });
+      root.querySelectorAll('select').forEach((el) => {
+        if (!(el instanceof HTMLSelectElement)) return;
+        el.value = el.id === 'score-troponin-unit' ? 'ngL' : '';
+      });
+      const note = root.querySelector('[data-rwt-note]');
+      if (note) note.textContent = '公式：RWT = (IVSd + posterior wall thickness) ÷ LVEDD';
+      renderAll();
+    });
+
+    renderAll();
+  }
+
+  initAttrScoreCalculator();
+  document.addEventListener('astro:page-load', initAttrScoreCalculator);
+</script>
+
+<style>
+  .score-calculator {
+    margin: 1.5rem 0 2.5rem;
+  }
+
+  .privacy-note {
+    display: flex;
+    gap: .7rem;
+    align-items: flex-start;
+    padding: .9rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: .85rem;
+    background: var(--sl-color-gray-7);
+    font-size: .88rem;
+    line-height: 1.5;
+  }
+
+  .privacy-note strong {
+    white-space: nowrap;
+  }
+
+  .calculator-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(18rem, .9fr);
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .input-panel,
+  .results-panel {
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 1rem;
+    background: var(--sl-color-bg-nav);
+  }
+
+  .input-panel {
+    padding: 1.2rem;
+  }
+
+  .results-panel {
+    padding: 1rem;
+    position: sticky;
+    top: 5rem;
+  }
+
+  .panel-heading,
+  .score-card-topline,
+  .helper-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .panel-heading h2,
+  .result-heading h2 {
+    margin: .1rem 0 .35rem;
+    font-size: 1.2rem;
+  }
+
+  .panel-heading p,
+  .result-heading p {
+    margin: 0;
+    color: var(--sl-color-gray-2);
+    font-size: .9rem;
+  }
+
+  .eyebrow {
+    margin: 0 !important;
+    font-size: .68rem !important;
+    letter-spacing: .14em;
+    font-weight: 700;
+    color: var(--sl-color-accent) !important;
+  }
+
+  .field-section {
+    padding-top: 1.15rem;
+    margin-top: 1.15rem;
+    border-top: 1px solid var(--sl-color-gray-5);
+  }
+
+  .field-section h3 {
+    margin: 0 0 .75rem;
+    font-size: .95rem;
+  }
+
+  .field-grid {
+    display: grid;
+    gap: .8rem;
+  }
+
+  .field-grid.two-col {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: .35rem;
+    font-size: .82rem;
+    font-weight: 650;
+  }
+
+  label span small,
+  .troponin-field > small {
+    font-weight: 400;
+    color: var(--sl-color-gray-3);
+  }
+
+  input,
+  select {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: .65rem;
+    background: var(--sl-color-bg);
+    color: var(--sl-color-text);
+    padding: .7rem .75rem;
+    font: inherit;
+    font-weight: 500;
+    min-height: 2.65rem;
+  }
+
+  input:focus,
+  select:focus {
+    outline: 2px solid var(--sl-color-accent-high);
+    outline-offset: 1px;
+  }
+
+  .input-with-unit {
+    display: grid;
+    grid-template-columns: 1fr 6.5rem;
+    gap: .45rem;
+  }
+
+  .reset-button,
+  .secondary-button {
+    border-radius: .65rem;
+    padding: .55rem .75rem;
+    border: 1px solid var(--sl-color-gray-5);
+    background: var(--sl-color-bg);
+    color: var(--sl-color-text);
+    font-size: .8rem;
+    font-weight: 650;
+    cursor: pointer;
+  }
+
+  .reset-button:hover,
+  .secondary-button:hover {
+    border-color: var(--sl-color-accent);
+  }
+
+  .rwt-helper {
+    margin-top: .8rem;
+    padding: .8rem;
+    border-radius: .75rem;
+    background: var(--sl-color-gray-7);
+  }
+
+  .rwt-helper summary {
+    cursor: pointer;
+    font-size: .82rem;
+    font-weight: 650;
+  }
+
+  .helper-row {
+    margin-top: .8rem;
+    align-items: end;
+  }
+
+  .helper-row label {
+    flex: 1;
+  }
+
+  .helper-note {
+    margin: .6rem 0 0;
+    font-size: .78rem;
+    color: var(--sl-color-gray-3);
+  }
+
+  .result-heading {
+    padding: .2rem .15rem .8rem;
+  }
+
+  .score-card {
+    padding: 1rem;
+    margin-top: .75rem;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: .9rem;
+    background: var(--sl-color-bg);
+  }
+
+  .score-label {
+    display: inline-block;
+    margin-bottom: .18rem;
+    color: var(--sl-color-gray-3);
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-weight: 700;
+  }
+
+  .score-card h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .score-number {
+    min-width: 2.3rem;
+    text-align: right;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .score-context {
+    margin: .55rem 0 .7rem;
+    color: var(--sl-color-gray-3);
+    font-size: .78rem;
+    line-height: 1.45;
+  }
+
+  .status-pill {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    padding: .32rem .6rem;
+    font-size: .76rem;
+    font-weight: 700;
+    border: 1px solid transparent;
+  }
+
+  .status-pill.neutral {
+    color: var(--sl-color-gray-2);
+    background: var(--sl-color-gray-6);
+    border-color: var(--sl-color-gray-5);
+  }
+
+  .status-pill.low {
+    color: var(--sl-color-green-high);
+    background: color-mix(in srgb, var(--sl-color-green) 14%, transparent);
+    border-color: color-mix(in srgb, var(--sl-color-green) 35%, transparent);
+  }
+
+  .status-pill.mid {
+    color: var(--sl-color-orange-high);
+    background: color-mix(in srgb, var(--sl-color-orange) 14%, transparent);
+    border-color: color-mix(in srgb, var(--sl-color-orange) 35%, transparent);
+  }
+
+  .status-pill.high {
+    color: var(--sl-color-red-high);
+    background: color-mix(in srgb, var(--sl-color-red) 14%, transparent);
+    border-color: color-mix(in srgb, var(--sl-color-red) 35%, transparent);
+  }
+
+  .missing-text,
+  .breakdown {
+    margin: .55rem 0 0;
+    font-size: .76rem;
+    line-height: 1.45;
+  }
+
+  .missing-text {
+    color: var(--sl-color-gray-3);
+  }
+
+  .breakdown {
+    color: var(--sl-color-gray-2);
+  }
+
+  .clinical-note {
+    margin-top: .9rem;
+    padding: .85rem;
+    border-left: 3px solid var(--sl-color-accent);
+    background: var(--sl-color-gray-7);
+    border-radius: .3rem .75rem .75rem .3rem;
+  }
+
+  .clinical-note strong {
+    font-size: .78rem;
+  }
+
+  .clinical-note p {
+    margin: .25rem 0 0;
+    font-size: .76rem;
+    color: var(--sl-color-gray-2);
+    line-height: 1.5;
+  }
+
+  @media (max-width: 820px) {
+    .calculator-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .results-panel {
+      position: static;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .field-grid.two-col {
+      grid-template-columns: 1fr;
+    }
+
+    .panel-heading,
+    .privacy-note {
+      flex-direction: column;
+    }
+
+    .helper-row {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .input-with-unit {
+      grid-template-columns: 1fr 6rem;
+    }
+  }
+</style>

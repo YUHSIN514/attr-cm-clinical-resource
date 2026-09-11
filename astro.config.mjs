@@ -40,15 +40,24 @@ export default defineConfig({
           ]
         },
         {
-          label: '篩檢與照護模式',
+          label: '篩檢工具',
           items: [
             {
-              label: '總覽',
+              label: '臨床預測工具',
               link: '/screening-referral/overview/'
             },
             {
               label: 'ATTR-CM 計分工具',
               link: '/screening-referral/calculator/'
+            }
+          ]
+        },
+        {
+          label: '照護模式',
+          items: [
+            {
+              label: '國際照護模式',
+              link: '/care-models/overview/'
             }
           ]
         },

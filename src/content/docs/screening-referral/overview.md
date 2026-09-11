@@ -20,6 +20,22 @@ description: ATTR-CM 篩檢工具與已公開的 amyloidosis care / referral mod
 - <a href="https://pubmed.ncbi.nlm.nih.gov/37389511/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 - <a href="https://www.t-amylo.com/" target="_blank" rel="noopener noreferrer">T-Amylo calculator ↗</a>
 
+### Japan｜Kumamoto Criteria
+
+熊本大學團隊提出的 **Kumamoto Criteria**，用途是提高疑似 ATTR-CM 病人接受 **99mTc-PYP 骨顯像** 前的 pretest probability；每符合一項得 1 分，總分 0–3 分。
+
+- **hs-cTnT ≥0.0308 ng/mL**｜1 分
+- **LV posterior wall thickness ≥13.6 mm**｜1 分
+- **QRS duration ≥120 ms**｜1 分
+
+原始熊本 cohort 納入 181 位 ≥70 歲、接受 PYP 的病人；0 分時 PYP 陰性的 NPV 為 87%，3 分時 PYP 陽性的 PPV 為 96%。日本 JCS cardiac amyloidosis guideline 亦將 Kumamoto criteria 列為協助選擇 PYP 檢查對象的工具。
+
+外部驗證研究納入 138 位接受 PYP 的病人，Kumamoto criteria 的 AUC 為 0.808；0、1、2、3 分的 PYP 陽性 PPV 分別為 0%、11%、21%、83%。因此此 score 適合用於 **screening / PYP patient selection**，不應視為 ATTR-CM 的確診工具；尤其 2 分族群在外部驗證的 PPV 明顯低於原始 cohort。
+
+- <a href="https://pubmed.ncbi.nlm.nih.gov/31189791/" target="_blank" rel="noopener noreferrer">2019｜Original Kumamoto Criteria｜PubMed ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/36530839/" target="_blank" rel="noopener noreferrer">2022｜External Validation｜PubMed ↗</a>
+- <a href="https://www.jstage.jst.go.jp/article/circj/84/9/84_CJ-20-0110/_html/-char/en" target="_blank" rel="noopener noreferrer">JCS 2020 Guideline on Diagnosis and Treatment of Cardiac Amyloidosis ↗</a>
+
 ## AI / Digital Screening
 
 ### Mayo Clinic × Anumana｜ECG-AI Cardiac Amyloidosis

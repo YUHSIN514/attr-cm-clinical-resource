@@ -45,6 +45,10 @@ export default defineConfig({
             {
               label: '總覽',
               link: '/screening-referral/overview/'
+            },
+            {
+              label: 'ATTR-CM 計分工具',
+              link: '/screening-referral/calculator/'
             }
           ]
         },

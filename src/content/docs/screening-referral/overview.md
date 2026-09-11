@@ -9,12 +9,41 @@ description: ATTR-CM 篩檢工具與已公開的 amyloidosis care / referral mod
 
 *A Simple Score to Identify Increased Risk of Transthyretin Amyloid Cardiomyopathy in Heart Failure With Preserved Ejection Fraction*
 
+用於 **HFpEF / preserved-EF heart failure** 族群中，協助辨識哪些病人值得進一步接受 **99mTc-PYP 骨顯像**。總分範圍為 **−1 至 10 分**。
+
+- **Age 60–69 years**｜+2 分
+- **Age 70–79 years**｜+3 分
+- **Age ≥80 years**｜+4 分
+- **Male sex**｜+2 分
+- **History of hypertension**｜−1 分
+- **LVEF <60%**｜+1 分
+- **Posterior wall thickness ≥12 mm**｜+1 分
+- **Relative wall thickness >0.57**｜+2 分
+
+**≥6 分**為 high-risk cutoff，可作為進一步安排 PYP 的參考；此 score 是風險分層工具，不是 ATTR-CM 的確診標準。
+
 - <a href="https://jamanetwork.com/journals/jamacardiology/fullarticle/2796095" target="_blank" rel="noopener noreferrer">JAMA Cardiology 原始論文 ↗</a>
 - <a href="https://pubmed.ncbi.nlm.nih.gov/36069809/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 
 ### T-Amylo Score
 
 *Development and Validation of a Prediction Model and Score for Transthyretin Cardiac Amyloidosis Diagnosis: T-Amylo*
+
+以臨床、ECG 與心臟超音波中容易取得的變項，協助疑似 ATTR-CA 病人做風險分層。簡化版 score 總分為 **0–11 分**。
+
+- **Age ≥80 years**｜1 分
+- **IVSd ≥16 mm**｜2 分
+- **Low QRS voltage**｜2 分
+- **Male sex**｜3 分
+- **Carpal tunnel syndrome**｜3 分
+
+風險分層：
+
+- **0–2 分｜Low risk**
+- **3–6 分｜Intermediate risk**
+- **7–11 分｜High risk**
+
+原始研究除 derivation cohort 外，另於 895 位病人的外部 cohort 驗證，並在 hypertensive cardiomyopathy、severe aortic stenosis 與 HFpEF 等情境測試。此工具用於提高 ATTR-CA suspicion 與協助後續檢查選擇，不取代正式診斷流程。
 
 - <a href="https://www.jacc.org/doi/10.1016/j.jcmg.2023.05.002" target="_blank" rel="noopener noreferrer">JACC: Cardiovascular Imaging 原始論文 ↗</a>
 - <a href="https://pubmed.ncbi.nlm.nih.gov/37389511/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
@@ -35,6 +64,8 @@ description: ATTR-CM 篩檢工具與已公開的 amyloidosis care / referral mod
 - <a href="https://pubmed.ncbi.nlm.nih.gov/31189791/" target="_blank" rel="noopener noreferrer">2019｜Original Kumamoto Criteria｜PubMed ↗</a>
 - <a href="https://pubmed.ncbi.nlm.nih.gov/36530839/" target="_blank" rel="noopener noreferrer">2022｜External Validation｜PubMed ↗</a>
 - <a href="https://www.jstage.jst.go.jp/article/circj/84/9/84_CJ-20-0110/_html/-char/en" target="_blank" rel="noopener noreferrer">JCS 2020 Guideline on Diagnosis and Treatment of Cardiac Amyloidosis ↗</a>
+
+> **三套工具的使用族群不同：** Mayo ATTR-CM Score 偏向 HFpEF / preserved-EF heart failure；T-Amylo 用於 broader suspected ATTR-CA population；Kumamoto Criteria 則來自日本高齡 PYP referral cohort。三者皆屬 screening / risk stratification 工具，不能直接取代 AL exclusion、bone scintigraphy 判讀或 biopsy 等正式診斷流程。
 
 ## AI / Digital Screening
 

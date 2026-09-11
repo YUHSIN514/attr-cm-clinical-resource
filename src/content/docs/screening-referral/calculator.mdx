@@ -1,0 +1,61 @@
+---
+title: ATTR-CM 計分工具
+description: Mayo ATTR-CM Score、T-Amylo Score 與 Kumamoto Criteria 互動式計分工具。
+---
+
+import AttrScoreCalculator from '../../../components/AttrScoreCalculator.astro';
+
+# ATTR-CM Screening Score Calculator
+
+同一頁輸入臨床資料，即時計算 **Mayo ATTR-CM Score、T-Amylo Score 與 Kumamoto Criteria**。三種工具的研究族群與用途不同，因此結果應各自依原始研究脈絡解讀，不宜直接以分數高低互相比較。
+
+<AttrScoreCalculator />
+
+## 計分規則
+
+### Mayo ATTR-CM Score
+
+原始研究用於 HFpEF / preserved-EF heart failure population 的 ATTR-CM risk prediction；score range 為 −1 至 10，**≥6 分**為 published high-risk cutoff。
+
+- Age 60–69：+2
+- Age 70–79：+3
+- Age ≥80：+4
+- Male：+2
+- Hypertension history：−1
+- LVEF <60%：+1
+- Posterior wall thickness ≥12 mm：+1
+- Relative wall thickness >0.57：+2
+
+原始來源：
+- <a href="https://jamanetwork.com/journals/jamacardiology/fullarticle/2796095" target="_blank" rel="noopener noreferrer">JAMA Cardiology｜A Simple Score to Identify Increased Risk of ATTR-CM in HFpEF ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/36069809/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
+
+### T-Amylo Score
+
+T-Amylo 建立於 suspected cardiac amyloidosis population，總分 0–11：**0–2 low risk、3–6 intermediate risk、7–11 high risk**。
+
+- Age ≥80：+1
+- Male：+3
+- Carpal tunnel syndrome：+3
+- IVSd ≥16 mm：+2
+- Low QRS voltage：+2
+
+原始來源：
+- <a href="https://www.jacc.org/doi/10.1016/j.jcmg.2023.05.002" target="_blank" rel="noopener noreferrer">JACC: Cardiovascular Imaging｜T-Amylo ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/37389511/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
+- <a href="https://www.t-amylo.com/" target="_blank" rel="noopener noreferrer">T-Amylo calculator ↗</a>
+
+### Kumamoto Criteria
+
+Kumamoto Criteria 用於提高疑似 ATTR-CM 病人接受 **99mTc-PYP bone scintigraphy（PYP 骨顯像）** 前的 pretest probability；每項 1 分，總分 0–3。
+
+- hs-cTnT ≥0.0308 ng/mL（= 30.8 ng/L）：+1
+- LV posterior wall thickness ≥13.6 mm：+1
+- QRS duration ≥120 ms：+1
+
+原始來源：
+- <a href="https://pubmed.ncbi.nlm.nih.gov/31189791/" target="_blank" rel="noopener noreferrer">2019｜Original Kumamoto Criteria｜PubMed ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/36530839/" target="_blank" rel="noopener noreferrer">2022｜External Validation｜PubMed ↗</a>
+- <a href="https://www.jstage.jst.go.jp/article/circj/84/9/84_CJ-20-0110/_html/-char/en" target="_blank" rel="noopener noreferrer">JCS 2020 Guideline on Diagnosis and Treatment of Cardiac Amyloidosis ↗</a>
+
+> 本頁重現已發表的 screening / risk prediction scores，並非 ATTR-CM 診斷工具。實際診斷仍應依 clinical context 與最新 guideline / consensus 完成 AL exclusion、bone scintigraphy / PYP、CMR 或 biopsy 等評估。

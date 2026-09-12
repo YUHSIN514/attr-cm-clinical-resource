@@ -22,6 +22,15 @@ export default defineConfig({
           link: '/'
         },
         {
+          label: '歷史發展',
+          items: [
+            {
+              label: 'ATTR-CM 認識與診療的演進',
+              link: '/history/overview/'
+            }
+          ]
+        },
+        {
           label: '影像',
           items: [
             {

@@ -66,7 +66,22 @@ description: ATTR-CM 群體研究、臨床試驗、診斷研究、影像與篩�
 - <a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215515s006lbl.pdf" target="_blank" rel="noopener noreferrer">FDA 處方資訊與試驗摘要 ↗</a>
 - <a href="https://www.ema.europa.eu/en/medicines/human/EPAR/amvuttra" target="_blank" rel="noopener noreferrer">EMA：Amvuttra ↗</a>
 
-> **閱讀提醒：** ATTR-ACT、ATTRibute-CM 與 HELIOS-B 的族群、背景治療、終點及追蹤時間不同，不能直接以各試驗數字判定藥物優劣。國外核准不等於台灣核准或健保給付；本頁國外核准資訊核對日期為 2026-09-12。
+### 2026｜CARDIO-TTRansform：eplontersen（未達主要終點）
+
+**發表：** ESC Congress 2026 Hot Line，2026-08-28  
+**來源層級：** 以下依 ESC 官方大會新聞稿整理，非期刊全文摘要。
+
+**重點：**
+
+- 第三期、雙盲試驗共 1,432 名野生型或遺傳型 ATTR-CM 病人，在標準照護下，以 1:1 分配至 eplontersen 45 mg 或安慰劑，每 4 週皮下注射。
+- 主要終點為截至 140 週的心血管死亡與反覆心血管事件。整體分析未達統計顯著差異：rate ratio 0.89（95% CI 0.73–1.09，p=0.277）。
+- 雖降低血中 TTR，仍未證實整體族群的主要臨床終點獲益。
+- 基線 57% 使用 TTR 穩定劑。預先指定亞組中，未使用穩定劑者出現較少事件，達名目統計顯著；**亞組訊號不能取代未達標的整體主要結果，也不能據此確立單藥療效。**
+- 本研究結果屬 ATTR-CM；不應直接外推至遺傳型 ATTR 多發性神經病變。
+
+- <a href="https://www.escardio.org/news/press/press-releases/eplontersen-trial-did-not-meet-its-primary-endpoint-in-transthyretin-mediated-amyloid-cardiomyopathy/" target="_blank" rel="noopener noreferrer">ESC 官方大會結果（2026-08-28）↗</a>
+
+> **閱讀提醒：** ATTR-ACT、ATTRibute-CM、HELIOS-B 與 CARDIO-TTRansform 的族群、背景治療、終點及追蹤時間不同，不能直接以各試驗數字判定藥物優劣。國外核准不等於台灣核准或健保給付；本頁國外核准資訊核對日期為 2026-09-12。
 
 ## 台灣／台大相關 ATTR-CM 研究
 

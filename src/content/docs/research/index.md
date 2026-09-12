@@ -25,6 +25,49 @@ description: ATTR-CM 群體研究、臨床試驗、診斷研究、影像與篩�
 - <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1805689" target="_blank" rel="noopener noreferrer">NEJM 原始論文 ↗</a>
 - <a href="https://pubmed.ncbi.nlm.nih.gov/30145929/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 
+### 2024｜ATTRibute-CM：acoramidis
+
+**期刊：** Gillmore JD, et al. *New England Journal of Medicine*. 2024;390:132–142  
+*Efficacy and Safety of Acoramidis in Transthyretin Amyloid Cardiomyopathy*
+
+**重點：**
+
+- Acoramidis 為 TTR 穩定劑。第三期、雙盲試驗共 632 名 ATTR-CM 病人，以 2:1 分配至 acoramidis 或安慰劑，追蹤 30 個月；主要療效分析納入 eGFR ≥30 mL/min/1.73 m² 的病人。
+- 主要終點依序整合全因死亡、心血管相關住院、NT-proBNP 變化及 6 分鐘行走距離變化，採階層式分析。
+- 30 個月主要分析優於安慰劑：win ratio 1.8（95% CI 1.4–2.2，p<0.001）。**Win ratio 並非死亡風險比，不能解讀成死亡率降低 80%。**
+- 不良事件發生率為 98.1% 對 97.6%；嚴重不良事件為 54.6% 對 64.9%。
+- 研究設計中的 12 個月 Part A，其 6 分鐘行走距離主要終點未達顯著差異；上述陽性主要結果來自 30 個月 Part B。
+
+**國外核准：** 美國 FDA 於 **2024-11-22** 核准 **Attruby**，用於成人野生型或變異型 ATTR-CM，以降低心血管死亡及心血管相關住院。歐盟商品名為 **Beyonttra**，於 **2025-02-10** 取得上市許可，適應症涵蓋成人野生型或變異型 ATTR-CM。
+
+- <a href="https://doi.org/10.1056/NEJMoa2305434" target="_blank" rel="noopener noreferrer">NEJM 原始論文 ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/38197816/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
+- <a href="https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshot-attruby" target="_blank" rel="noopener noreferrer">FDA 核准與試驗摘要 ↗</a>
+- <a href="https://www.ema.europa.eu/en/medicines/human/EPAR/beyonttra" target="_blank" rel="noopener noreferrer">EMA：Beyonttra ↗</a>
+
+### 2024 線上發表／2025 刊出｜HELIOS-B：vutrisiran
+
+**期刊：** Fontana M, et al. *New England Journal of Medicine*. 2025;392:33–44（2024-08-30 線上發表）  
+*Vutrisiran in Patients with Transthyretin Amyloidosis with Cardiomyopathy*
+
+**重點：**
+
+- Vutrisiran 為 RNA interference（siRNA）治療，抑制肝臟製造 TTR。第三期、雙盲試驗共 655 名病人隨機分配，接受 vutrisiran 25 mg 或安慰劑皮下注射，每 12 週一次，最長 36 個月。
+- 主要終點為全因死亡與反覆心血管事件的複合終點；心血管事件包含心血管住院及緊急心衰竭就醫。
+- 整體族群主要終點 HR 0.72（95% CI 0.56–0.93，p=0.01）；基線未使用 tafamidis 的族群 HR 0.67（95% CI 0.49–0.93，p=0.02）。
+- 約 40% 病人在基線使用 tafamidis；因此整體結果包含背景使用 tafamidis 的病人，**並非 vutrisiran 與 tafamidis 的直接比較**。
+- 相較安慰劑，6 分鐘行走距離及 KCCQ-OS 的下降較少；不良事件發生率為 99% 對 98%，嚴重不良事件為 62% 對 67%。
+
+**國外核准：** 美國 FDA 於 **2025-03-20** 核准 **Amvuttra** 的成人野生型或遺傳型 ATTR-CM 適應症，以降低心血管死亡、心血管住院及緊急心衰竭就醫。歐盟 **Amvuttra** 亦已取得成人野生型或遺傳型 ATTR-CM 適應症；此項與較早核准的遺傳型 ATTR 多發性神經病變適應症不同。
+
+- <a href="https://doi.org/10.1056/NEJMoa2409134" target="_blank" rel="noopener noreferrer">NEJM 原始論文 ↗</a>
+- <a href="https://pubmed.ncbi.nlm.nih.gov/39213194/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
+- <a href="https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/215515Orig1s006ltr.pdf" target="_blank" rel="noopener noreferrer">FDA ATTR-CM 核准函 ↗</a>
+- <a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215515s006lbl.pdf" target="_blank" rel="noopener noreferrer">FDA 處方資訊與試驗摘要 ↗</a>
+- <a href="https://www.ema.europa.eu/en/medicines/human/EPAR/amvuttra" target="_blank" rel="noopener noreferrer">EMA：Amvuttra ↗</a>
+
+> **閱讀提醒：** ATTR-ACT、ATTRibute-CM 與 HELIOS-B 的族群、背景治療、終點及追蹤時間不同，不能直接以各試驗數字判定藥物優劣。國外核准不等於台灣核准或健保給付；本頁國外核准資訊核對日期為 2026-09-12。
+
 ## 台灣／台大相關 ATTR-CM 研究
 
 ### 2025｜Thallium-201 心肌灌注

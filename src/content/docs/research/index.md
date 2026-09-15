@@ -93,7 +93,7 @@ description: ATTR-CM 群體研究、臨床試驗、診斷研究、影像與篩�
 
 **背景與研究問題：** 已被診斷為 HCM 的患者中，是否仍存在未被辨識的 ATTR-CM？
 
-**做了什麼：** 前瞻性研究納入 150 位年齡 ≥60 歲、既有 HCM 診斷的患者，以 99mTc-PYP 核醫檢查重新評估 ATTR-CM；研究整理稿記載亦進行單株蛋白相關檢查與 TTR 基因檢測。
+**研究方法：** 前瞻性研究納入 150 位年齡 ≥60 歲、既有 HCM 診斷的患者，以 99mTc-PYP 核醫檢查評估 ATTR-CM。
 
 **主要數據：**
 
@@ -103,18 +103,7 @@ description: ATTR-CM 群體研究、臨床試驗、診斷研究、影像與篩�
 | 非阻塞型 HCM | 63 | 5 | 7.9%（約 8%） |
 | 阻塞型 HCM | 87 | 0 | 0% |
 
-**研究意義：** 這篇從既有 HCM 診斷的研究族群出發，呈現重新評估後發現 ATTR-CM 的情形，可與 HCM／心臟澱粉樣變相關病例搭配閱讀。
-
-**解讀限制：**
-
-- ≥60 歲、非阻塞型 HCM 亞組中，ATTR-CM 發現率約 8%（5/63）。
-- 阻塞型組未發現個案，不代表流出道阻塞可以排除心臟澱粉樣變。
-- 僅有 5 位 ATTR-CM 患者，無法據此確立通用篩檢政策、診斷工具的準確度或治療效益。
-- 本篇為研究隊列，收錄於「研究與文獻」；不拆成 5 則獨立病例。
-
-**相關病例：** [Johns Hopkins 2025：心臟澱粉樣變合併 LVOT obstruction](/attr-cm-clinical-resource/clinical-cases/lvot-obstruction/)。
-
-**來源與核對狀態：** 本條目依保存的 Rowin 2022 研究整理稿摘錄；原始全文本次未能取得，細部方法與逐例數據尚待全文核對。整理稿中腕隧道症候群比例前後不一致，故此處不引用該比例、逐例表格及延伸篩檢建議。
+**整理來源：** 依現有研究整理稿摘錄，尚待原始全文核對。
 
 - <a href="https://doi.org/10.1161/CIRCIMAGING.122.014938" target="_blank" rel="noopener noreferrer">原始論文 DOI ↗</a>
 - <a href="https://pubmed.ncbi.nlm.nih.gov/36448453/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>

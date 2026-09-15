@@ -14,4 +14,4 @@ description: 2025 JACC Case Reports case series of cardiac amyloidosis presentin
 
 ## 相關研究
 
-[Rowin 2022：既有 HCM 診斷族群中的 ATTR-CM](/attr-cm-clinical-resource/research/#2022rowin既有-hcm-診斷族群中的-attr-cm)。此為研究隊列，與本頁病例系列的收案方式不同，不能直接比較發現率；詳見文獻索引的來源核對註記。
+[Rowin 2022：既有 HCM 診斷族群中的 ATTR-CM](/attr-cm-clinical-resource/research/#2022rowin既有-hcm-診斷族群中的-attr-cm)。

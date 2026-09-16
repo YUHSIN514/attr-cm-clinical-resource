@@ -183,6 +183,28 @@ ATTRwt 也可能在 60 歲以前以快速進展的 HFrEF 出現。本例因反�
 
 </section>
 
+<section class="case-entry" data-case-tags="ATTRwt|AL|疾病並存|PYP|心肌切片|基因判讀">
+
+## 台灣病例：ATTRwt 與 AL 心臟澱粉樣變並存
+
+<div class="case-badges"><span>ATTRwt</span><span>AL</span><span>疾病並存</span><span>PYP</span><span>心肌切片</span><span>基因判讀</span></div>
+
+**個案：** 83 歲台灣男性，有高血壓病史，因數月來漸進性活動喘接受評估。  
+**期刊：** 2022｜Acta Cardiologica Sinica；38(6):806–809  
+**作者：** Yu AL, Tsai CH, Chao CC, Shun CT, Lin YH  
+**原文標題：** Two Kinds of Cardiac Amyloidosis in One Patient: A Case Report
+
+- **心臟檢查：** 冠狀動脈攝影顯示血管通暢；Echo 顯示同心性左心室肥厚，平均壁厚 16 mm、LVEF 65%，GLS 下降並有 apical sparing。BNP 為 427.2 pg/mL，診斷為 HFpEF。
+- **CMR：** 瀰漫性心內膜下 LGE、native T1 1,022 ms、ECV 42.2%。
+- **輕鏈與核醫：** 血清及尿液檢查發現游離 κ 輕鏈升高；PYP visual grade 2，H/CL ratio 1.46。
+- **心肌切片：** 右心室中隔切片 Congo red 染色顯示澱粉樣沉積。免疫組織化學染色顯示 κ 輕鏈主要沉積於血管周圍，TTR 沉積於心肌，並占心臟組織中主要的澱粉樣沉積。
+- **分型結果：** TTR 基因檢測未發現突變；心外組織切片僅發現 AL 沉積。作者診斷為 ATTRwt 與 AL 混合型心臟澱粉樣變，合併全身性 AL 澱粉樣變。
+
+- <a href="https://pubmed.ncbi.nlm.nih.gov/36440246/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
+- <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9692213/" target="_blank" rel="noopener noreferrer">PMC 原始全文 ↗</a>
+
+</section>
+
 <section class="case-entry" data-case-tags="ATTRwt|特殊臨床表現|年輕個案|基因判讀">
 
 ## 極年輕 ATTRwt
@@ -202,7 +224,7 @@ ATTRwt 雖然典型發生於高齡男性，但不能單純以年齡排除。本�
 
 </div>
 
-> **註記（非原文內容）：** 這十則裡有六則的翻案關鍵在於「診斷已經成立之後仍繼續追查」，包括 ATTR 確立後找到第二病因、PYP 陽性後仍查 AL、症狀改善後不停手。另一組則是既有診斷造成錨定：DCM、HOCM、CAD、pericarditis。
+> **註記（非原文內容）：** 原有十則案例裡有六則的翻案關鍵在於「診斷已經成立之後仍繼續追查」，包括 ATTR 確立後找到第二病因、PYP 陽性後仍查 AL、症狀改善後不停手。另一組則是既有診斷造成錨定：DCM、HOCM、CAD、pericarditis。
 
 
 <style>

@@ -45,3 +45,14 @@ NAC 的自然史世代同時提供了診斷延遲的基線：病人在確診前�
 
 - <a href="https://pubmed.ncbi.nlm.nih.gov/38377730/" target="_blank" rel="noopener noreferrer">PubMed ↗</a>
 - <a href="https://www.sciencedirect.com/science/article/pii/S1470211823000040" target="_blank" rel="noopener noreferrer">ScienceDirect 全文 ↗</a>
+
+## USA｜Thomas Jefferson：多專科團隊建置經驗
+
+**來源：** ACC *Cardiology Magazine*，2025-03-01；實務經驗分享，非正式指引。
+
+- **先建立合作團隊：** 串聯心臟科、神經科及血液／腫瘤科，並向既有 amyloidosis 中心尋求支援。
+- **統一檢查流程：** 建立篩檢與排除 AL 的流程，安排就診前完成檢驗、當天進行 PYP，方便即時討論。
+- **設置照護協調角色：** 護理協調人員與進階臨床照護人員協助檢查、門診安排、衛教及追蹤。
+- **逐步擴大服務：** 隨病人量增加再設聯合門診；透過院內教育建立轉介網絡。團隊至第 4 年已照護逾 100 位病人。
+
+- <a href="https://www.acc.org/latest-in-cardiology/articles/2025/03/01/42/from-the-starting-line-creating-a-multidisciplinary-amyloidosis-program" target="_blank" rel="noopener noreferrer">ACC｜Creating a Multidisciplinary Amyloidosis Program: A Practical Guide ↗</a>

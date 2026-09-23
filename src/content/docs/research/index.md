@@ -178,3 +178,15 @@ description: ATTR-CM 群體研究、臨床試驗、診斷研究、影像與篩�
 - <a href="https://www.sciencedirect.com/science/article/pii/S0929664619304899" target="_blank" rel="noopener noreferrer">ScienceDirect 全文 ↗</a>
 
 > **註記（非原文內容）：** A97S 那一組四篇串起來看，主線是「ATTR-ACT 沒收 A97S，所以台灣自己補」——2020 建立表型與預後基線，2023 看 6 個月的 NT-proBNP，2024 看 12 個月的 GLS。另外 2020 那篇只有 14% 出現 relative apical sparing，代表在 A97S 病人身上不能用典型 strain pattern 來排除診斷。
+
+## 瓣膜疾病／結構性心臟病
+
+### 2022｜奧地利雙中心：二尖瓣 TEER 病人的 CA 篩檢
+
+**期刊：** Donà C, Nitsche C, et al. *JACC: Cardiovascular Interventions*. 2022;15(17):1748–1758.
+
+前瞻性納入 120 位接受二尖瓣 TEER 的病人；臨床 CA 14 人（11.7%），另有 grade 1 早期沉積 9 人（7.5%）。研究提供共病辨識與介入後預後資訊，並非 TEER 存活獲益的隨機試驗。
+
+- [完整文獻摘要：篩檢方法、分組、結果與限制](../screening-referral/valvular-teer/)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/36008266/)
+- [原始論文](https://www.jacc.org/doi/10.1016/j.jcin.2022.06.009)

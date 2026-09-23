@@ -62,6 +62,10 @@ export default defineConfig({
             {
               label: 'AI 輔助篩檢',
               link: '/screening-referral/ai-screening/'
+            },
+            {
+              label: '瓣膜疾病／TEER',
+              link: '/screening-referral/valvular-teer/'
             }
           ]
         },

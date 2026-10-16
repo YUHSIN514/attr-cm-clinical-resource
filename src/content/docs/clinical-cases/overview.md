@@ -21,6 +21,24 @@ description: 依臨床表現與 diagnostic phenotype 整理的已發表病例與
 
 <div id="case-results">
 
+<section class="case-entry" data-case-tags="ATTRwt|疾病並存|鑑別診斷|特殊臨床表現">
+
+## 右位心與完全內臟反位：既有心臟病造成的診斷錨定
+
+<div class="case-badges"><span>ATTRwt</span><span>疾病並存</span><span>鑑別診斷</span><span>特殊臨床表現</span></div>
+
+**個案：** 84M、situs inversus totalis／dextrocardia、進行性活動喘｜多模態影像支持 ATTRwt-CM  
+**期刊：** 2026｜Journal of Nuclear Cardiology（Tanami S, Masri A, et al.）；另有 ACC 2026 會議摘要  
+**核心議題：** Anchoring bias、既有心臟病與 ATTR-CM 共存、CMR、99mTc-HDP scan
+
+先天性心臟結構異常與高血壓原本可解釋部分心室肥厚及功能異常，但無法逕自解釋新出現、持續惡化的心衰竭症狀。進一步以 Echo、CMR（報告 ECV 41%）及 99mTc-HDP 核醫影像評估，並排除 AL 後，診斷 ATTR-CM；報告記載後續開始 tafamidis。**教學重點：既有心臟診斷不排除第二種心肌病因，尤其高齡病人的臨床病程與原有解釋不相稱時。** 單一病例不能推論此族群的 ATTR-CM 盛行率或常規篩檢效益。
+
+- <a href="https://doi.org/10.1016/j.jacc.2026.02.4423" target="_blank" rel="noopener noreferrer">ACC 2026 會議摘要（主要來源）↗</a>
+- <a href="https://doi.org/10.1016/j.nuclcard.2026.102964" target="_blank" rel="noopener noreferrer">Journal of Nuclear Cardiology 病例報告 ↗</a>
+
+</section>
+
+
 <section class="case-entry" data-case-tags="ATTRwt|特殊臨床表現|PYP|心肌切片">
 
 ## 壁厚正常的 ATTR-CM
@@ -224,7 +242,7 @@ ATTRwt 雖然典型發生於高齡男性，但不能單純以年齡排除。本�
 
 </div>
 
-> **註記（非原文內容）：** 原有十則案例裡有六則的翻案關鍵在於「診斷已經成立之後仍繼續追查」，包括 ATTR 確立後找到第二病因、PYP 陽性後仍查 AL、症狀改善後不停手。另一組則是既有診斷造成錨定：DCM、HOCM、CAD、pericarditis。
+> **註記（非原文內容）：** 既有案例中有多則的翻案關鍵在於「診斷已經成立之後仍繼續追查」，包括 ATTR 確立後找到第二病因、PYP 陽性後仍查 AL、症狀改善後不停手。另一組則是既有診斷造成錨定：DCM、HOCM、CAD、pericarditis。
 
 
 <style>

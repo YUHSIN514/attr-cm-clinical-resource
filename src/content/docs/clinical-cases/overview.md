@@ -20,6 +20,108 @@ description: 依臨床表現與 diagnostic phenotype 整理的已發表病例與
 <p id="case-empty" hidden>沒有符合的案例，請更換關鍵字或清除篩選。</p>
 
 <div id="case-results">
+<!-- 2026-11-09 新增文獻：依使用者提供的題名與來源建立初步索引；全文臨床細節待核對 -->
+
+<section class="case-entry" data-case-tags="ATTR-CM|特殊臨床表現|鑑別診斷">
+
+## 心房手術病理意外發現 amyloid：追查 ATTR-CM
+
+<div class="case-badges"><span>ATTR-CM</span><span>特殊臨床表現</span><span>鑑別診斷</span></div>
+
+**期刊：** 2026/10/21｜JACC: Case Reports  
+**文獻狀態：** 題名與連結初步收錄，全文病例數據待核對  
+**臨床啟示：** 心房手術檢體意外發現 amyloid 沉積，進一步評估是否存在 ATTR-CM。**教學重點：心房 amyloid 不可直接等同心室 ATTR-CM，需確認蛋白分型與心臟受累證據。**
+
+- <a href="https://www.jacc.org/doi/10.1016/j.jaccas.2026.109925" target="_blank" rel="noopener noreferrer">原始文獻 ↗</a>
+
+</section>
+
+<section class="case-entry" data-case-tags="ATTRwt|影像判讀陷阱|特殊臨床表現">
+
+## ATTRwt-CM 的非典型 PET 陽性影像
+
+<div class="case-badges"><span>ATTRwt</span><span>影像判讀陷阱</span><span>特殊臨床表現</span></div>
+
+**期刊：** 2026/10/21｜JACC: Case Reports  
+**文獻狀態：** 題名與連結初步收錄，全文病例數據待核對  
+**臨床啟示：** 報告 ATTRwt-CM 合併 18F-FDG／13N-ammonia cardiac PET 陽性表現。**教學重點：PET 訊號不具 ATTR 特異性，需回到整體臨床與標準診斷流程。**
+
+- <a href="https://www.sciencedirect.com/science/article/pii/S2666084926027026" target="_blank" rel="noopener noreferrer">原始文獻 ↗</a>
+
+</section>
+
+<section class="case-entry" data-case-tags="ATTRv|PYP|影像判讀陷阱|特殊臨床表現">
+
+## 腸胃道症狀起病的 hereditary ATTR：PYP 結果不確定
+
+<div class="case-badges"><span>ATTRv</span><span>PYP</span><span>影像判讀陷阱</span><span>特殊臨床表現</span></div>
+
+**期刊：** 2026/10/14｜Frontiers in Cardiovascular Medicine  
+**文獻狀態：** 題名與連結初步收錄，全文病例數據待核對  
+**臨床啟示：** 以胃腸道症狀起病的 hereditary ATTR，伴隨心肌病變及 equivocal 99mTc-PYP。**教學重點：PYP 不確定不能單獨排除或確診 ATTR-CM；需整合遺傳、心臟與組織學證據。**
+
+- <a href="https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2026.1928392/full" target="_blank" rel="noopener noreferrer">原始文獻 ↗</a>
+
+</section>
+
+<section class="case-entry" data-case-tags="ATTRv|特殊臨床表現|鑑別診斷">
+
+## 自主神經病變起病：hereditary ATTR-CM 延遲診斷
+
+<div class="case-badges"><span>ATTRv</span><span>特殊臨床表現</span><span>鑑別診斷</span></div>
+
+**期刊：** 2026/10/16｜Journal of Cardiovascular Development and Disease  
+**文獻狀態：** 題名與連結初步收錄，全文病例數據待核對  
+**臨床啟示：** 以自主神經病變為重要臨床線索的 hereditary ATTR 心臟類澱粉沉積症延遲診斷案例。**教學重點：心臟外症狀可能早於典型心臟表現。**
+
+- <a href="https://doi.org/10.3390/jcdd13100523" target="_blank" rel="noopener noreferrer">原始文獻 ↗</a>
+
+</section>
+
+<section class="case-entry" data-case-tags="ATTRwt|鑑別診斷|特殊臨床表現">
+
+## 難治性 HFpEF 背後的 ATTRwt-CM 延遲辨識
+
+<div class="case-badges"><span>ATTRwt</span><span>鑑別診斷</span><span>特殊臨床表現</span></div>
+
+**期刊：** 2026/04/23｜Medical Research Journal  
+**文獻狀態：** 題名與連結初步收錄，全文病例數據待核對  
+**臨床啟示：** 以 refractory HFpEF 表現的 ATTRwt-CM 延遲辨識案例。**教學重點：對治療反應不如預期的 HFpEF，應重新評估病因及 ATTR-CM red flags。**
+
+- <a href="https://journals.viamedica.pl/medical_research_journal/article/download/111988/88899" target="_blank" rel="noopener noreferrer">原始文獻 ↗</a>
+
+</section>
+
+<section class="case-entry" data-case-tags="ATTR-CM|HCM|鑑別診斷|特殊臨床表現">
+
+## Apical HCM phenotype、心尖動脈瘤與難治性心房心律不整
+
+<div class="case-badges"><span>ATTR-CM</span><span>HCM</span><span>鑑別診斷</span><span>特殊臨床表現</span></div>
+
+**期刊：** 2026/10/03｜SN Comprehensive Clinical Medicine  
+**文獻狀態：** 題名與連結初步收錄，全文病例數據待核對  
+**臨床啟示：** ATTR-CM 以 apical HCM phenotype、apical aneurysm 與 refractory atrial arrhythmias 表現。**教學重點：非典型肥厚型態及心律不整不應排除浸潤性心肌病。**
+
+- <a href="https://link.springer.com/article/10.1007/s42399-026-02750-9" target="_blank" rel="noopener noreferrer">原始文獻 ↗</a>
+
+</section>
+
+<section class="case-entry" data-case-tags="ATTR-CM|特殊臨床表現">
+
+## Safety-net hospital：10 位 Afro-Caribbean 病人的 ATTR-CM 案例系列
+
+<div class="case-badges"><span>ATTR-CM</span><span>特殊臨床表現</span></div>
+
+**期刊：** 2026/09/23｜JACC: Case Reports  
+**文獻狀態：** 題名與連結初步收錄，全文病例數據待核對  
+**臨床啟示：** 10 位 Afro-Caribbean 病人的 ATTR-CM case series。**教學重點：關注不同族群與醫療可近性下的辨識及診斷問題；不能由小型案例系列推估盛行率。**
+
+- <a href="https://www.jacc.org/doi/10.1016/j.jaccas.2026.109013" target="_blank" rel="noopener noreferrer">原始文獻 ↗</a>
+
+</section>
+
+<!-- 2026-11-09 新增文獻結束 -->
+
 
 <section class="case-entry" data-case-tags="ATTRwt|疾病並存|鑑別診斷|特殊臨床表現">
 

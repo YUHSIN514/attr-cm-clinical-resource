@@ -15,8 +15,9 @@ description: 與 ATTR-CM／cardiac amyloidosis 相關的重要國際與台灣文
 
 ## 台灣本土共識文件
 
-台灣目前有兩份與 ATTR-CM／cardiac amyloidosis 臨床實務高度相關的重要共識文件，完整說明見下方 2025 與 2023 年份區塊。
+以下收錄三份與 ATTR-CM／cardiac amyloidosis 臨床辨識或診療相關的台灣本土共識文件，包括一份 HCM 鑑別診斷相關共識；完整說明見下方對應年份區塊。
 
+- **2026｜HCM 專家共識（ATTR-CM 鑑別診斷相關）** 由中華民國心臟學會（TSOC）制定，將 cardiac amyloidosis（ATTR/AL）列為重要 HCM phenocopy，並在 HCM 診斷流程中建議排除相關擬似疾病（整體診斷流程為 Class I）；此文件並非 ATTR-CM 專屬指引。
 - **2025｜99mTc-PYP scintigraphy 更新共識** 由中華民國心臟學會（TSOC）與中華民國核醫學學會（SNMROC）共同制定，聚焦 PYP acquisition、SPECT/CT、3-hour imaging、判讀與 AL 排除。
 - **2023｜Cardiac Amyloidosis 診斷與治療專家共識** 由中華民國心臟學會（TSOC）發布，涵蓋 red flags、AL/ATTR 鑑別、影像、biopsy、genetic testing 與治療。
 

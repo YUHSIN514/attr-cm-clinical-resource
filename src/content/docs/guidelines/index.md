@@ -24,6 +24,23 @@ description: 與 ATTR-CM／cardiac amyloidosis 相關的重要國際與台灣文
 
 ## 2026
 
+### 台灣｜2026 TSOC Expert Consensus Recommendations on Hypertrophic Cardiomyopathy
+
+**正式名稱：** 2026 Expert Consensus Recommendations on Hypertrophic Cardiomyopathy: A Report of the Task Force of the Taiwan Society of Cardiology  
+**發布機構：** 中華民國心臟學會（TSOC）  
+**文件類型：** Expert Consensus（HCM 指引；此處收錄其 ATTR-CM 鑑別診斷相關內容，非 ATTR-CM 專屬指引）  
+**期刊：** Acta Cardiologica Sinica. 2026;42:296–338  
+**DOI：** 10.6515/ACS.202605_42(3).20260410A
+
+**ATTR-CM 相關重點：**
+
+- **p.305，§6.2–6.4：** Cardiac amyloidosis（含 ATTR 與 AL）與 Fabry disease 為重要 HCM phenocopies。出現心臟外表現、ECG 與影像不相符、非典型 CMR 或特徵性 strain pattern 等 red flags 時，應納入鑑別。
+- **p.305，§6.3–6.4：** HCM 三步驟診斷架構為 TTE 評估心肌肥厚 → 針對 phenocopies 進行鑑別排除（可搭配基因檢測及 CMR）→ 評估靜息與誘發 LVOT gradient；此整體診斷建議列為 **Class I**。**不應解讀為所有疑似 HCM 患者均須接受 PYP 檢查。**
+- **p.306，Table 2：** HCM 與 cardiac amyloidosis（ATTR/AL）的鑑別特徵，包括 ECG 低電壓與心肌厚度不相稱、pseudo-infarct pattern、對稱性增厚、biatrial enlargement、GLS apical sparing，以及 CMR diffuse subendocardial/transmural LGE、native T1 與 ECV 升高。
+- **臨床定位：** 支持從 unexplained LVH／疑似 HCM phenotype 辨識 ATTR-CM 的跨疾病診斷策略；ATTR-CM 的 AL 排除、PYP/SPECT 與確診流程仍應參照專屬 cardiac amyloidosis 指引。
+
+- [原始期刊 DOI](https://doi.org/10.6515/ACS.202605_42(3).20260410A)
+
 ### ESC Guidelines for the Management of Heart Failure
 
 **發布機構：** European Society of Cardiology（ESC）  
